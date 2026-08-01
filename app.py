@@ -11,7 +11,7 @@ import gdown
 
 # import
 # Preprocessing pipeline
-preprocessing = joblib.load(r'models\Ct_for_preprocessing.pkl')
+preprocessing = joblib.load('models\Ct_for_preprocessing.pkl')
 
 #Models
 lr = joblib.load(r'models\Final_lr_model.pkl')
