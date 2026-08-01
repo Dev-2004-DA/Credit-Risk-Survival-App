@@ -11,15 +11,15 @@ import gdown
 # Load preprocessing pipeline
 # ==========================================================
 
-preprocessing = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\phase3_modelling\Ct_for_preprocessing.csv')
+preprocessing = joblib.load(r'models\Ct_for_preprocessing.csv')
 
 # ==========================================================
 # Classification models
 # ==========================================================
 
-lr = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\phase3_modelling\Final_lr_model.pkl')
+lr = joblib.load(r'models\Final_lr_model.pkl')
 
-gb = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\phase3_modelling\Final_gb_model.pkl')
+gb = joblib.load(r'models\Final_gb_model.pkl')
 
 # ==========================================================
 # Survival models
@@ -35,20 +35,20 @@ if not os.path.exists("models/cox_model.pkl"):
 
 cox_model = joblib.load("models/cox_model.pkl")
 
-xgb_model = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\Survival Analysis\xgb_model.pkl')
+xgb_model = joblib.load(r'models\xgb_model.pkl')
 
 # ==========================================================
 # Column transformers
 # ==========================================================
-cox_model_ct = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\Survival Analysis\CT_cox_model.pkl')
+cox_model_ct = joblib.load(r'models\CT_cox_model.pkl')
 
-xgb_model_ct = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\Survival Analysis\CT_xgb_model.pkl')
+xgb_model_ct = joblib.load(r'models\CT_xgb_model.pkl')
 
 # ==========================================================
 # SHAP masker data
 # ==========================================================
 
-masker_data = pd.read_csv(r'C:\Users\Dev\OneDrive\Desktop\data\Streamlite\masker_data_for_lr_pd.csv')
+masker_data = pd.read_csv(r'masker_data_for_lr_pd.csv')
 
 
 masker_data = pd.DataFrame(
