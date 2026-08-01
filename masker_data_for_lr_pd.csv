@@ -1,0 +1,1001 @@
+loan_amnt,term,sub_grade,home_ownership,verification_status,purpose_group,delinq_2yrs_flag,inq_last_6mths_bin,total_acc_bin,emp_status_unverifiable,bin_annual_inc,bin_int_ratec,bin_dti,bin_revol_util
+24000, 36 months,A4,RENT,Verified,Debt Management,0.0,0,16-20,0,80K-120K,<8%,5-10,<20%
+7500, 36 months,C1,RENT,Verified,Debt Management,0.0,0-1,26-35,0,40K-80K,12-15%,30-35,80-100%
+16000, 60 months,D3,RENT,Source Verified,Debt Management,1.0,0-1,20-26,0,40K-80K,15-21%,25-30,40-60%
+11375, 60 months,G5,MORTGAGE,Source Verified,Home & Property,0.0,0,10-16,0,18K-40K,>24%,10-15,60-80%
+8000, 36 months,B1,MORTGAGE,Not Verified,Home & Property,0.0,0,26-35,0,80K-120K,8-12%,10-15,80-100%
+24000, 36 months,C3,RENT,Verified,Debt Management,0.0,0-1,26-35,0,>120K,12-15%,5-10,80-100%
+4000, 36 months,B1,RENT,Verified,Debt Management,0.0,0,0-10,0,<18K,8-12%,10-15,80-100%
+12550, 36 months,E2,OWN,Source Verified,Debt Management,0.0,0-1,20-26,0,18K-40K,15-21%,20-25,20-40%
+8500, 36 months,D3,MORTGAGE,Not Verified,Debt Management,0.0,1-2,0-10,0,18K-40K,15-21%,15-20,60-80%
+12000, 60 months,C3,RENT,Source Verified,Debt Management,0.0,0,26-35,0,40K-80K,15-21%,20-25,60-80%
+15000, 36 months,B3,RENT,Not Verified,Debt Management,0.0,2+,20-26,0,40K-80K,8-12%,25-30,20-40%
+3000, 36 months,E2,MORTGAGE,Source Verified,Personal Expenses,0.0,2+,20-26,1,40K-80K,15-21%,25-30,60-80%
+10000, 36 months,A4,MORTGAGE,Not Verified,Debt Management,0.0,0-1,35+,0,40K-80K,<8%,10-15,40-60%
+7000, 36 months,B5,RENT,Not Verified,Business & Education,0.0,1-2,10-16,0,<18K,12-15%,<5,<20%
+15000, 36 months,D3,RENT,Source Verified,Debt Management,1.0,0,35+,0,80K-120K,15-21%,10-15,>100%
+10400, 36 months,A4,MORTGAGE,Verified,Debt Management,0.0,0,20-26,0,80K-120K,<8%,15-20,40-60%
+9800, 36 months,B3,MORTGAGE,Source Verified,Debt Management,0.0,2+,26-35,0,80K-120K,8-12%,30-35,<20%
+12000, 36 months,B1,RENT,Source Verified,Debt Management,0.0,2+,16-20,0,18K-40K,8-12%,10-15,20-40%
+14500, 36 months,D1,RENT,Not Verified,Debt Management,0.0,0,0-10,0,18K-40K,12-15%,15-20,40-60%
+9000, 36 months,B2,RENT,Verified,Debt Management,0.0,1-2,35+,0,80K-120K,8-12%,10-15,20-40%
+14000, 36 months,B2,RENT,Not Verified,Debt Management,0.0,0-1,35+,0,80K-120K,8-12%,25-30,60-80%
+10000, 36 months,B3,RENT,Verified,Debt Management,0.0,0-1,16-20,0,40K-80K,8-12%,15-20,40-60%
+5000, 36 months,B1,RENT,Source Verified,Debt Management,0.0,0,10-16,0,40K-80K,8-12%,20-25,20-40%
+9500, 36 months,B3,RENT,Not Verified,Debt Management,0.0,1-2,20-26,0,40K-80K,8-12%,15-20,60-80%
+28000, 60 months,B3,MORTGAGE,Source Verified,Debt Management,0.0,0,26-35,0,80K-120K,8-12%,20-25,60-80%
+23050, 60 months,E4,RENT,Verified,Debt Management,0.0,0,10-16,0,40K-80K,21-24%,10-15,80-100%
+19200, 60 months,D1,RENT,Verified,Debt Management,0.0,0-1,10-16,0,40K-80K,15-21%,10-15,40-60%
+24575, 36 months,C2,MORTGAGE,Verified,Debt Management,0.0,0,35+,0,40K-80K,15-21%,25-30,60-80%
+12000, 60 months,C2,MORTGAGE,Not Verified,Debt Management,0.0,0-1,10-16,0,40K-80K,12-15%,<5,40-60%
+4300, 36 months,C2,RENT,Not Verified,Debt Management,0.0,0,10-16,0,40K-80K,12-15%,25-30,60-80%
+6000, 36 months,B3,MORTGAGE,Not Verified,Debt Management,0.0,0,0-10,0,80K-120K,8-12%,5-10,80-100%
+10700, 36 months,C2,RENT,Not Verified,Debt Management,0.0,0,10-16,0,80K-120K,15-21%,15-20,60-80%
+7000, 36 months,B2,MORTGAGE,Not Verified,Debt Management,1.0,1-2,20-26,0,>120K,8-12%,5-10,60-80%
+10000, 60 months,E1,RENT,Verified,Personal Expenses,0.0,0-1,10-16,0,40K-80K,15-21%,20-25,80-100%
+28000, 36 months,D2,OWN,Verified,Debt Management,0.0,0-1,16-20,0,40K-80K,15-21%,10-15,80-100%
+35000, 36 months,B2,MORTGAGE,Verified,Debt Management,0.0,0,20-26,0,80K-120K,8-12%,10-15,40-60%
+24000, 36 months,A4,OWN,Verified,Debt Management,0.0,2+,26-35,0,80K-120K,<8%,10-15,20-40%
+12000, 36 months,B1,MORTGAGE,Not Verified,Debt Management,0.0,0-1,20-26,0,18K-40K,8-12%,10-15,20-40%
+28000, 36 months,B3,MORTGAGE,Source Verified,Debt Management,0.0,0,26-35,0,80K-120K,8-12%,20-25,60-80%
+5000, 36 months,B2,MORTGAGE,Not Verified,Debt Management,0.0,0,26-35,0,80K-120K,8-12%,10-15,80-100%
+15000, 36 months,B2,MORTGAGE,Not Verified,Debt Management,0.0,0-1,26-35,0,40K-80K,8-12%,5-10,60-80%
+12000, 36 months,B4,RENT,Not Verified,Debt Management,0.0,0,10-16,0,40K-80K,12-15%,10-15,40-60%
+15000, 36 months,B4,RENT,Verified,Personal Expenses,0.0,2+,0-10,0,80K-120K,12-15%,<5,<20%
+5000, 36 months,C3,OWN,Source Verified,Vehicle & Major Purchases,0.0,0,35+,0,40K-80K,15-21%,15-20,20-40%
+15000, 60 months,E1,MORTGAGE,Verified,Debt Management,0.0,0,20-26,0,18K-40K,15-21%,10-15,60-80%
+15000, 60 months,D2,MORTGAGE,Verified,Debt Management,0.0,0,16-20,0,40K-80K,15-21%,20-25,80-100%
+35000, 60 months,E1,MORTGAGE,Verified,Debt Management,0.0,0,20-26,0,80K-120K,15-21%,15-20,40-60%
+10000, 36 months,B3,RENT,Not Verified,Debt Management,1.0,0-1,35+,0,40K-80K,8-12%,25-30,20-40%
+10000, 60 months,C2,RENT,Source Verified,Debt Management,0.0,0-1,35+,0,40K-80K,15-21%,5-10,60-80%
+1600, 36 months,B1,MORTGAGE,Not Verified,Personal Expenses,0.0,0,16-20,0,80K-120K,8-12%,10-15,40-60%
+12000, 36 months,C1,MORTGAGE,Not Verified,Debt Management,1.0,0-1,26-35,0,80K-120K,12-15%,10-15,80-100%
+10000, 36 months,C4,RENT,Not Verified,Debt Management,0.0,0-1,10-16,0,40K-80K,15-21%,5-10,60-80%
+17050, 36 months,B5,RENT,Not Verified,Debt Management,0.0,0,35+,0,40K-80K,12-15%,20-25,40-60%
+29700, 60 months,B5,RENT,Source Verified,Debt Management,0.0,0,20-26,0,40K-80K,12-15%,25-30,60-80%
+18075, 36 months,B2,RENT,Source Verified,Debt Management,0.0,0,0-10,0,40K-80K,8-12%,10-15,60-80%
+15000, 36 months,D5,RENT,Verified,Debt Management,0.0,0-1,35+,0,80K-120K,15-21%,<5,60-80%
+15000, 36 months,D1,MORTGAGE,Verified,Personal Expenses,0.0,0-1,26-35,0,40K-80K,12-15%,5-10,40-60%
+10000, 36 months,B1,OWN,Verified,Home & Property,0.0,0,10-16,0,18K-40K,8-12%,20-25,<20%
+6000, 36 months,C4,RENT,Not Verified,Debt Management,0.0,0,10-16,0,40K-80K,12-15%,15-20,40-60%
+12000, 36 months,C1,MORTGAGE,Verified,Debt Management,0.0,1-2,20-26,0,40K-80K,12-15%,15-20,40-60%
+7200, 36 months,A3,MORTGAGE,Not Verified,Debt Management,1.0,0-1,16-20,0,40K-80K,<8%,10-15,<20%
+20000, 36 months,B3,RENT,Not Verified,Debt Management,0.0,0,35+,0,80K-120K,12-15%,20-25,40-60%
+6400, 36 months,A1,MORTGAGE,Verified,Debt Management,0.0,0,16-20,0,40K-80K,<8%,5-10,<20%
+28100, 36 months,C4,MORTGAGE,Verified,Debt Management,0.0,0,26-35,0,80K-120K,15-21%,20-25,80-100%
+6000, 36 months,C1,RENT,Verified,Vehicle & Major Purchases,0.0,0,0-10,0,18K-40K,12-15%,20-25,<20%
+19350, 60 months,E4,OWN,Verified,Debt Management,0.0,0,26-35,0,40K-80K,15-21%,30-35,40-60%
+11000, 60 months,D3,MORTGAGE,Verified,Debt Management,0.0,0-1,26-35,0,18K-40K,15-21%,15-20,20-40%
+4000, 36 months,C2,RENT,Not Verified,Debt Management,0.0,0-1,20-26,0,80K-120K,12-15%,15-20,60-80%
+14275, 36 months,B1,RENT,Not Verified,Debt Management,0.0,0,20-26,0,40K-80K,8-12%,10-15,60-80%
+12000, 36 months,D2,RENT,Verified,Vehicle & Major Purchases,0.0,0-1,26-35,0,>120K,15-21%,10-15,80-100%
+26500, 36 months,D3,RENT,Verified,Business & Education,0.0,1-2,26-35,0,>120K,15-21%,20-25,80-100%
+6100, 36 months,C4,RENT,Verified,Vehicle & Major Purchases,0.0,0-1,10-16,0,40K-80K,15-21%,5-10,40-60%
+5375, 36 months,D4,MORTGAGE,Verified,Debt Management,0.0,0,0-10,0,40K-80K,15-21%,15-20,60-80%
+12000, 36 months,A3,MORTGAGE,Verified,Debt Management,0.0,0,20-26,0,40K-80K,<8%,20-25,40-60%
+9950, 36 months,B4,MORTGAGE,Source Verified,Personal Expenses,0.0,0,20-26,0,40K-80K,12-15%,20-25,60-80%
+13500, 36 months,B3,MORTGAGE,Not Verified,Debt Management,0.0,0,35+,0,40K-80K,12-15%,20-25,80-100%
+11000, 36 months,C3,RENT,Verified,Debt Management,0.0,0,0-10,0,40K-80K,15-21%,10-15,60-80%
+15550, 36 months,B1,MORTGAGE,Verified,Debt Management,0.0,0,10-16,0,40K-80K,8-12%,10-15,80-100%
+3950, 36 months,B2,RENT,Verified,Debt Management,0.0,0,10-16,0,<18K,8-12%,20-25,40-60%
+30000, 60 months,D3,RENT,Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,15-21%,5-10,40-60%
+8000, 36 months,C5,MORTGAGE,Not Verified,Debt Management,0.0,2+,35+,0,40K-80K,15-21%,10-15,40-60%
+9875, 36 months,D2,MORTGAGE,Not Verified,Debt Management,1.0,0,26-35,0,40K-80K,15-21%,>35,60-80%
+4500, 36 months,B4,RENT,Verified,Business & Education,0.0,0,10-16,1,18K-40K,12-15%,25-30,40-60%
+20000, 36 months,A5,RENT,Not Verified,Debt Management,0.0,0,20-26,0,80K-120K,8-12%,5-10,60-80%
+18000, 60 months,D5,MORTGAGE,Verified,Personal Expenses,0.0,0,10-16,0,40K-80K,15-21%,25-30,60-80%
+8000, 36 months,B3,RENT,Not Verified,Debt Management,0.0,0,16-20,0,18K-40K,12-15%,20-25,60-80%
+24000, 36 months,B2,MORTGAGE,Verified,Debt Management,0.0,2+,35+,0,80K-120K,8-12%,30-35,60-80%
+10000, 36 months,B3,RENT,Not Verified,Debt Management,0.0,0,10-16,0,40K-80K,12-15%,20-25,40-60%
+10000, 36 months,E3,MORTGAGE,Not Verified,Debt Management,1.0,0-1,26-35,0,40K-80K,21-24%,5-10,80-100%
+12000, 36 months,B5,RENT,Source Verified,Debt Management,0.0,0-1,26-35,0,40K-80K,12-15%,20-25,60-80%
+10575, 36 months,E5,RENT,Verified,Personal Expenses,0.0,0,16-20,0,18K-40K,21-24%,20-25,40-60%
+4800, 36 months,A5,RENT,Not Verified,Debt Management,0.0,0,35+,0,40K-80K,8-12%,30-35,<20%
+8000, 36 months,B1,MORTGAGE,Not Verified,Debt Management,0.0,0,26-35,0,80K-120K,8-12%,20-25,80-100%
+3125, 36 months,A5,RENT,Verified,Business & Education,0.0,0,0-10,0,<18K,8-12%,20-25,40-60%
+8125, 36 months,B1,OWN,Verified,Debt Management,0.0,0,26-35,0,18K-40K,8-12%,30-35,20-40%
+35000, 36 months,C4,MORTGAGE,Verified,Debt Management,0.0,0,20-26,0,80K-120K,15-21%,15-20,80-100%
+7200, 36 months,B5,OWN,Source Verified,Debt Management,0.0,1-2,26-35,0,18K-40K,12-15%,20-25,40-60%
+15825, 60 months,D1,MORTGAGE,Not Verified,Debt Management,0.0,0-1,35+,0,40K-80K,15-21%,25-30,40-60%
+16800, 60 months,B1,MORTGAGE,Source Verified,Debt Management,0.0,0-1,20-26,0,80K-120K,8-12%,5-10,20-40%
+7000, 36 months,A2,OWN,Not Verified,Debt Management,0.0,0,20-26,0,40K-80K,<8%,10-15,20-40%
+14000, 36 months,B1,MORTGAGE,Not Verified,Debt Management,0.0,0,16-20,0,40K-80K,8-12%,5-10,40-60%
+27000, 36 months,C1,MORTGAGE,Source Verified,Debt Management,0.0,0,10-16,0,80K-120K,12-15%,10-15,60-80%
+2000, 36 months,B5,RENT,Not Verified,Personal Expenses,0.0,0-1,0-10,0,18K-40K,12-15%,15-20,60-80%
+18000, 36 months,A4,MORTGAGE,Source Verified,Debt Management,0.0,0,20-26,0,40K-80K,<8%,<5,60-80%
+20475, 60 months,D5,RENT,Verified,Debt Management,0.0,0,16-20,0,40K-80K,15-21%,25-30,80-100%
+15000, 36 months,D2,MORTGAGE,Verified,Debt Management,0.0,0,35+,0,80K-120K,15-21%,10-15,60-80%
+21000, 60 months,F2,OWN,Source Verified,Debt Management,1.0,0-1,16-20,0,80K-120K,21-24%,5-10,40-60%
+14000, 60 months,B3,RENT,Source Verified,Personal Expenses,0.0,0,26-35,0,40K-80K,8-12%,20-25,<20%
+4725, 36 months,E4,MORTGAGE,Verified,Personal Expenses,1.0,1-2,35+,1,40K-80K,15-21%,30-35,40-60%
+16950, 36 months,C3,MORTGAGE,Source Verified,Debt Management,0.0,2+,20-26,0,40K-80K,15-21%,20-25,40-60%
+4000, 36 months,D1,RENT,Verified,Debt Management,1.0,0-1,26-35,0,18K-40K,15-21%,25-30,80-100%
+20000, 36 months,B4,MORTGAGE,Source Verified,Debt Management,0.0,0,26-35,0,40K-80K,12-15%,10-15,60-80%
+7600, 36 months,C4,RENT,Not Verified,Personal Expenses,0.0,0-1,0-10,0,40K-80K,15-21%,<5,20-40%
+5000, 36 months,C2,MORTGAGE,Not Verified,Debt Management,0.0,1-2,35+,0,18K-40K,12-15%,20-25,20-40%
+20000, 36 months,B2,RENT,Verified,Debt Management,1.0,0-1,35+,0,40K-80K,8-12%,15-20,40-60%
+16000, 36 months,A5,RENT,Source Verified,Debt Management,0.0,0-1,35+,0,40K-80K,8-12%,25-30,80-100%
+30000, 60 months,F4,RENT,Source Verified,Debt Management,0.0,0,35+,0,40K-80K,>24%,20-25,80-100%
+28000, 36 months,A3,MORTGAGE,Verified,Debt Management,0.0,0,26-35,0,>120K,<8%,15-20,60-80%
+15600, 36 months,A5,MORTGAGE,Source Verified,Debt Management,0.0,0,35+,0,40K-80K,8-12%,10-15,<20%
+25000, 60 months,B2,MORTGAGE,Source Verified,Home & Property,0.0,1-2,20-26,0,80K-120K,8-12%,10-15,20-40%
+11400, 36 months,B1,MORTGAGE,Source Verified,Debt Management,0.0,0,10-16,0,40K-80K,8-12%,10-15,60-80%
+20675, 60 months,E3,RENT,Verified,Debt Management,0.0,0,10-16,0,40K-80K,15-21%,30-35,80-100%
+5000, 36 months,D3,MORTGAGE,Verified,Debt Management,0.0,1-2,35+,0,>120K,15-21%,25-30,60-80%
+16000, 60 months,B3,MORTGAGE,Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,12-15%,15-20,60-80%
+24000, 36 months,A4,MORTGAGE,Not Verified,Debt Management,0.0,0,16-20,0,80K-120K,<8%,10-15,80-100%
+20000, 36 months,B2,MORTGAGE,Source Verified,Debt Management,0.0,0,0-10,0,80K-120K,8-12%,5-10,40-60%
+15000, 60 months,F3,OWN,Verified,Debt Management,0.0,1-2,26-35,0,40K-80K,>24%,5-10,80-100%
+6000, 36 months,B4,RENT,Not Verified,Debt Management,0.0,0,0-10,0,18K-40K,8-12%,5-10,40-60%
+5375, 36 months,D2,MORTGAGE,Not Verified,Debt Management,1.0,1-2,10-16,0,40K-80K,15-21%,20-25,20-40%
+17600, 36 months,C3,MORTGAGE,Not Verified,Debt Management,0.0,0,20-26,0,40K-80K,12-15%,25-30,80-100%
+20000, 60 months,E4,MORTGAGE,Verified,Debt Management,0.0,0,10-16,0,40K-80K,15-21%,10-15,80-100%
+20675, 36 months,C1,RENT,Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,12-15%,10-15,40-60%
+5425, 36 months,A5,MORTGAGE,Not Verified,Debt Management,0.0,2+,35+,0,40K-80K,8-12%,20-25,40-60%
+12000, 36 months,A4,MORTGAGE,Source Verified,Debt Management,0.0,2+,35+,0,40K-80K,<8%,15-20,20-40%
+8875, 36 months,D2,RENT,Verified,Business & Education,0.0,0,26-35,0,18K-40K,15-21%,15-20,60-80%
+19075, 36 months,B1,RENT,Source Verified,Personal Expenses,0.0,0,0-10,0,80K-120K,8-12%,5-10,<20%
+8400, 36 months,B2,MORTGAGE,Source Verified,Debt Management,1.0,0-1,0-10,0,40K-80K,8-12%,<5,40-60%
+24000, 36 months,F1,MORTGAGE,Source Verified,Debt Management,0.0,2+,20-26,0,40K-80K,15-21%,20-25,80-100%
+8000, 36 months,D1,RENT,Source Verified,Debt Management,0.0,0,26-35,0,40K-80K,15-21%,20-25,40-60%
+8000, 36 months,B4,OWN,Verified,Home & Property,1.0,0,26-35,0,40K-80K,12-15%,5-10,40-60%
+11000, 36 months,C4,RENT,Not Verified,Debt Management,0.0,1-2,0-10,0,40K-80K,15-21%,10-15,40-60%
+6000, 36 months,B3,RENT,Source Verified,Debt Management,0.0,0,0-10,0,18K-40K,12-15%,5-10,80-100%
+10000, 36 months,B3,MORTGAGE,Not Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,12-15%,10-15,60-80%
+5000, 36 months,C2,RENT,Not Verified,Debt Management,1.0,2+,16-20,0,18K-40K,12-15%,25-30,40-60%
+9600, 36 months,B2,MORTGAGE,Verified,Debt Management,0.0,0,35+,1,40K-80K,8-12%,5-10,<20%
+7875, 60 months,D3,OWN,Not Verified,Vehicle & Major Purchases,0.0,0-1,10-16,0,18K-40K,15-21%,10-15,60-80%
+20000, 36 months,A3,MORTGAGE,Verified,Debt Management,0.0,0-1,20-26,0,80K-120K,<8%,15-20,40-60%
+24500, 60 months,C4,MORTGAGE,Verified,Debt Management,0.0,0,10-16,0,40K-80K,15-21%,5-10,80-100%
+5000, 60 months,F3,MORTGAGE,Verified,Personal Expenses,1.0,2+,35+,0,80K-120K,21-24%,10-15,60-80%
+15000, 36 months,B4,RENT,Verified,Debt Management,1.0,2+,26-35,0,40K-80K,12-15%,25-30,20-40%
+30000, 60 months,D5,MORTGAGE,Verified,Debt Management,0.0,0-1,35+,0,>120K,15-21%,20-25,80-100%
+15000, 36 months,B3,MORTGAGE,Source Verified,Debt Management,0.0,0,20-26,0,80K-120K,8-12%,10-15,80-100%
+20000, 60 months,E5,MORTGAGE,Verified,Home & Property,0.0,0-1,26-35,0,40K-80K,21-24%,5-10,20-40%
+11100, 36 months,D1,OWN,Verified,Debt Management,0.0,1-2,26-35,0,18K-40K,15-21%,20-25,40-60%
+2000, 36 months,D2,MORTGAGE,Source Verified,Personal Expenses,0.0,2+,26-35,0,18K-40K,12-15%,15-20,60-80%
+8000, 36 months,B2,MORTGAGE,Not Verified,Debt Management,0.0,0-1,10-16,0,18K-40K,8-12%,10-15,40-60%
+7000, 36 months,A1,MORTGAGE,Not Verified,Home & Property,0.0,0,26-35,0,40K-80K,<8%,15-20,<20%
+25000, 60 months,D1,MORTGAGE,Source Verified,Debt Management,0.0,0,26-35,0,80K-120K,15-21%,10-15,60-80%
+19000, 36 months,C3,MORTGAGE,Not Verified,Debt Management,0.0,1-2,16-20,0,40K-80K,15-21%,5-10,60-80%
+7200, 36 months,B2,MORTGAGE,Not Verified,Debt Management,0.0,0,26-35,0,40K-80K,8-12%,15-20,40-60%
+12250, 36 months,D3,MORTGAGE,Not Verified,Debt Management,0.0,0,10-16,0,18K-40K,15-21%,15-20,80-100%
+14400, 36 months,B4,RENT,Not Verified,Debt Management,0.0,0,16-20,0,40K-80K,12-15%,10-15,60-80%
+6400, 36 months,D2,RENT,Source Verified,Personal Expenses,0.0,2+,26-35,0,40K-80K,15-21%,25-30,40-60%
+30000, 36 months,F2,RENT,Verified,Debt Management,0.0,1-2,26-35,0,80K-120K,21-24%,15-20,80-100%
+15000, 36 months,A5,RENT,Verified,Debt Management,0.0,0,20-26,0,18K-40K,<8%,20-25,<20%
+3000, 36 months,B2,MORTGAGE,Source Verified,Home & Property,1.0,1-2,26-35,0,80K-120K,8-12%,20-25,40-60%
+6000, 36 months,B2,RENT,Not Verified,Debt Management,0.0,0,0-10,0,18K-40K,8-12%,25-30,60-80%
+22500, 36 months,B3,MORTGAGE,Source Verified,Debt Management,0.0,1-2,20-26,0,80K-120K,8-12%,15-20,60-80%
+11500, 36 months,B4,RENT,Not Verified,Debt Management,0.0,0,0-10,0,18K-40K,12-15%,20-25,60-80%
+14400, 36 months,B5,MORTGAGE,Not Verified,Debt Management,0.0,2+,16-20,0,40K-80K,12-15%,10-15,40-60%
+10000, 60 months,F1,RENT,Source Verified,Debt Management,0.0,0,10-16,0,40K-80K,21-24%,15-20,80-100%
+10800, 36 months,A4,MORTGAGE,Not Verified,Debt Management,0.0,0,35+,0,40K-80K,8-12%,10-15,40-60%
+25000, 36 months,B3,RENT,Verified,Debt Management,0.0,0,26-35,0,80K-120K,8-12%,15-20,40-60%
+10000, 36 months,C1,MORTGAGE,Not Verified,Debt Management,1.0,2+,35+,0,40K-80K,12-15%,15-20,40-60%
+14750, 36 months,C1,RENT,Verified,Debt Management,0.0,0,20-26,0,40K-80K,12-15%,30-35,40-60%
+12000, 36 months,B4,MORTGAGE,Not Verified,Personal Expenses,0.0,0,20-26,0,>120K,12-15%,5-10,40-60%
+5400, 36 months,D4,MORTGAGE,Verified,Personal Expenses,0.0,2+,20-26,0,18K-40K,12-15%,<5,40-60%
+4500, 36 months,A2,MORTGAGE,Not Verified,Debt Management,0.0,2+,35+,0,80K-120K,<8%,15-20,<20%
+9900, 36 months,B3,RENT,Verified,Debt Management,0.0,0,20-26,0,40K-80K,12-15%,5-10,40-60%
+8000, 36 months,B4,MORTGAGE,Not Verified,Debt Management,1.0,0,35+,0,40K-80K,12-15%,5-10,40-60%
+2700, 36 months,A4,MORTGAGE,Verified,Business & Education,0.0,0-1,35+,0,80K-120K,<8%,25-30,60-80%
+25000, 36 months,D3,OWN,Source Verified,Debt Management,1.0,0,35+,0,40K-80K,15-21%,30-35,40-60%
+25000, 60 months,B5,RENT,Verified,Personal Expenses,0.0,1-2,20-26,0,80K-120K,12-15%,<5,<20%
+12000, 36 months,D1,RENT,Verified,Debt Management,0.0,1-2,10-16,0,40K-80K,15-21%,10-15,40-60%
+14000, 60 months,D3,OWN,Verified,Debt Management,0.0,0,20-26,0,18K-40K,15-21%,15-20,40-60%
+9600, 36 months,A1,MORTGAGE,Not Verified,Debt Management,0.0,0,26-35,0,40K-80K,<8%,<5,<20%
+17800, 36 months,D2,RENT,Not Verified,Debt Management,0.0,0,10-16,0,40K-80K,15-21%,15-20,80-100%
+13000, 36 months,A5,RENT,Not Verified,Debt Management,0.0,0,20-26,0,40K-80K,8-12%,5-10,60-80%
+11650, 36 months,B3,OWN,Not Verified,Vehicle & Major Purchases,0.0,1-2,35+,0,40K-80K,8-12%,25-30,20-40%
+20000, 36 months,D4,RENT,Verified,Debt Management,0.0,1-2,0-10,0,40K-80K,15-21%,20-25,40-60%
+20000, 36 months,B4,RENT,Not Verified,Debt Management,1.0,0,0-10,0,80K-120K,12-15%,5-10,60-80%
+14400, 60 months,C4,MORTGAGE,Verified,Debt Management,0.0,2+,35+,0,80K-120K,15-21%,15-20,20-40%
+21000, 36 months,A1,RENT,Source Verified,Debt Management,0.0,1-2,26-35,0,80K-120K,<8%,20-25,20-40%
+8000, 36 months,A4,OWN,Source Verified,Home & Property,0.0,0,10-16,0,40K-80K,<8%,<5,20-40%
+27300, 60 months,E3,RENT,Verified,Debt Management,0.0,1-2,26-35,0,40K-80K,21-24%,25-30,40-60%
+16000, 36 months,B5,OWN,Source Verified,Debt Management,0.0,0-1,0-10,0,40K-80K,12-15%,<5,40-60%
+14300, 36 months,C3,OWN,Verified,Debt Management,0.0,2+,35+,0,40K-80K,15-21%,20-25,20-40%
+11325, 60 months,C3,RENT,Verified,Debt Management,0.0,0-1,10-16,0,40K-80K,15-21%,15-20,20-40%
+11025, 60 months,F1,OWN,Source Verified,Debt Management,0.0,1-2,35+,0,40K-80K,21-24%,30-35,60-80%
+12000, 60 months,C4,MORTGAGE,Verified,Home & Property,0.0,1-2,16-20,0,40K-80K,12-15%,10-15,20-40%
+9000, 36 months,B5,OWN,Source Verified,Debt Management,0.0,0,35+,0,18K-40K,8-12%,5-10,20-40%
+7000, 36 months,C2,RENT,Source Verified,Debt Management,0.0,0-1,0-10,0,18K-40K,12-15%,10-15,80-100%
+9000, 36 months,C2,MORTGAGE,Verified,Debt Management,0.0,2+,16-20,0,40K-80K,15-21%,10-15,80-100%
+8000, 36 months,B5,MORTGAGE,Source Verified,Debt Management,0.0,1-2,26-35,0,40K-80K,12-15%,5-10,20-40%
+19350, 60 months,E5,MORTGAGE,Source Verified,Debt Management,0.0,0-1,16-20,0,40K-80K,21-24%,15-20,40-60%
+6000, 36 months,B3,RENT,Source Verified,Debt Management,0.0,0,0-10,0,40K-80K,12-15%,10-15,60-80%
+3000, 36 months,C5,RENT,Not Verified,Personal Expenses,0.0,0-1,26-35,0,80K-120K,12-15%,15-20,60-80%
+6000, 36 months,B2,RENT,Source Verified,Debt Management,0.0,0,26-35,0,18K-40K,8-12%,20-25,40-60%
+15000, 60 months,C4,MORTGAGE,Verified,Debt Management,0.0,1-2,26-35,0,40K-80K,12-15%,20-25,80-100%
+12000, 36 months,A2,MORTGAGE,Verified,Debt Management,1.0,0,26-35,0,18K-40K,<8%,20-25,40-60%
+35000, 36 months,E3,OWN,Verified,Debt Management,1.0,2+,26-35,0,>120K,21-24%,10-15,80-100%
+5000, 36 months,B2,OWN,Not Verified,Debt Management,0.0,0,10-16,0,18K-40K,8-12%,5-10,40-60%
+30000, 36 months,C2,RENT,Source Verified,Debt Management,0.0,0,26-35,0,80K-120K,15-21%,15-20,40-60%
+4350, 36 months,D5,MORTGAGE,Not Verified,Debt Management,1.0,0,26-35,0,40K-80K,15-21%,30-35,80-100%
+1000, 36 months,C2,RENT,Not Verified,Vehicle & Major Purchases,0.0,0,20-26,0,18K-40K,12-15%,10-15,<20%
+19425, 60 months,G3,RENT,Source Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,>24%,15-20,40-60%
+7000, 60 months,D5,MORTGAGE,Verified,Vehicle & Major Purchases,0.0,2+,35+,0,80K-120K,15-21%,20-25,80-100%
+9000, 36 months,A4,MORTGAGE,Not Verified,Debt Management,0.0,0,20-26,0,40K-80K,<8%,<5,40-60%
+2800, 36 months,E3,MORTGAGE,Not Verified,Personal Expenses,0.0,0-1,10-16,0,40K-80K,21-24%,10-15,80-100%
+8500, 60 months,E3,RENT,Verified,Debt Management,0.0,0,0-10,1,18K-40K,15-21%,15-20,80-100%
+18875, 60 months,D3,RENT,Verified,Debt Management,0.0,0,20-26,0,40K-80K,15-21%,>35,60-80%
+19000, 36 months,B3,MORTGAGE,Verified,Debt Management,0.0,0,26-35,0,40K-80K,12-15%,10-15,80-100%
+19125, 36 months,B4,MORTGAGE,Verified,Debt Management,0.0,0,16-20,0,40K-80K,12-15%,15-20,60-80%
+4000, 36 months,C3,RENT,Not Verified,Vehicle & Major Purchases,0.0,1-2,26-35,0,80K-120K,12-15%,10-15,20-40%
+2200, 60 months,D2,MORTGAGE,Verified,Debt Management,0.0,2+,35+,0,40K-80K,15-21%,25-30,80-100%
+10300, 60 months,D2,MORTGAGE,Verified,Debt Management,0.0,0,20-26,0,40K-80K,15-21%,5-10,40-60%
+10000, 36 months,D1,MORTGAGE,Not Verified,Personal Expenses,0.0,1-2,20-26,0,40K-80K,15-21%,10-15,80-100%
+5600, 36 months,D1,RENT,Not Verified,Debt Management,0.0,0,0-10,0,<18K,12-15%,5-10,60-80%
+10000, 36 months,B1,MORTGAGE,Not Verified,Debt Management,0.0,0,35+,0,40K-80K,8-12%,15-20,60-80%
+6000, 60 months,C2,MORTGAGE,Not Verified,Personal Expenses,0.0,0,10-16,0,40K-80K,12-15%,10-15,80-100%
+6400, 36 months,B1,RENT,Source Verified,Debt Management,0.0,0,35+,0,80K-120K,8-12%,5-10,20-40%
+8000, 36 months,D2,RENT,Not Verified,Debt Management,1.0,0,20-26,0,40K-80K,15-21%,15-20,80-100%
+10150, 36 months,C4,RENT,Source Verified,Debt Management,0.0,0-1,20-26,0,18K-40K,15-21%,20-25,60-80%
+19600, 36 months,A1,MORTGAGE,Not Verified,Debt Management,0.0,0,35+,0,40K-80K,<8%,15-20,<20%
+12375, 36 months,C1,MORTGAGE,Verified,Debt Management,1.0,0-1,26-35,0,40K-80K,12-15%,20-25,40-60%
+18000, 36 months,C1,MORTGAGE,Source Verified,Debt Management,0.0,0-1,20-26,0,>120K,12-15%,10-15,80-100%
+6375, 36 months,D1,RENT,Not Verified,Debt Management,0.0,0-1,0-10,0,40K-80K,15-21%,5-10,80-100%
+13000, 36 months,D3,RENT,Not Verified,Personal Expenses,0.0,0,26-35,0,40K-80K,15-21%,20-25,40-60%
+12000, 36 months,A4,MORTGAGE,Verified,Debt Management,0.0,0-1,26-35,0,18K-40K,<8%,20-25,20-40%
+10000, 36 months,A4,MORTGAGE,Source Verified,Debt Management,1.0,2+,20-26,0,40K-80K,<8%,15-20,60-80%
+8500, 36 months,C2,RENT,Not Verified,Debt Management,0.0,2+,26-35,0,18K-40K,12-15%,15-20,20-40%
+14975, 36 months,C2,MORTGAGE,Not Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,12-15%,20-25,40-60%
+8000, 36 months,D1,RENT,Source Verified,Personal Expenses,0.0,1-2,20-26,0,18K-40K,15-21%,25-30,<20%
+18000, 36 months,C2,RENT,Not Verified,Debt Management,0.0,0,10-16,0,40K-80K,12-15%,10-15,40-60%
+24000, 36 months,C3,OWN,Source Verified,Debt Management,0.0,2+,26-35,0,>120K,15-21%,20-25,80-100%
+9950, 36 months,D2,RENT,Verified,Debt Management,1.0,0,10-16,0,18K-40K,15-21%,10-15,40-60%
+1000, 36 months,B4,RENT,Verified,Debt Management,0.0,0-1,35+,0,40K-80K,12-15%,20-25,20-40%
+14600, 36 months,B3,MORTGAGE,Source Verified,Debt Management,0.0,0,26-35,1,40K-80K,12-15%,20-25,40-60%
+12250, 60 months,D2,RENT,Verified,Debt Management,0.0,0,10-16,0,18K-40K,15-21%,20-25,80-100%
+14000, 36 months,B5,RENT,Not Verified,Debt Management,0.0,0-1,26-35,0,80K-120K,12-15%,10-15,60-80%
+16000, 60 months,D5,MORTGAGE,Source Verified,Debt Management,0.0,0,16-20,0,40K-80K,15-21%,25-30,60-80%
+13000, 36 months,B1,RENT,Source Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,8-12%,10-15,60-80%
+15000, 60 months,F1,MORTGAGE,Verified,Debt Management,0.0,0,10-16,0,18K-40K,21-24%,10-15,20-40%
+18450, 36 months,A3,OWN,Verified,Debt Management,0.0,0,20-26,0,40K-80K,<8%,15-20,<20%
+2000, 36 months,A5,RENT,Not Verified,Home & Property,0.0,0,26-35,0,40K-80K,<8%,10-15,80-100%
+13200, 60 months,E2,MORTGAGE,Not Verified,Debt Management,0.0,0-1,26-35,0,18K-40K,15-21%,20-25,60-80%
+11000, 36 months,C5,RENT,Not Verified,Debt Management,0.0,0,16-20,0,18K-40K,15-21%,15-20,80-100%
+11500, 60 months,D2,RENT,Source Verified,Debt Management,0.0,0,10-16,0,40K-80K,15-21%,10-15,60-80%
+12000, 36 months,A2,MORTGAGE,Not Verified,Debt Management,0.0,0-1,26-35,0,40K-80K,<8%,15-20,20-40%
+6075, 36 months,B3,RENT,Verified,Debt Management,0.0,0,26-35,1,18K-40K,12-15%,25-30,20-40%
+5000, 36 months,B2,OWN,Source Verified,Debt Management,0.0,0,26-35,0,40K-80K,8-12%,20-25,60-80%
+4950, 36 months,D1,RENT,Verified,Debt Management,0.0,0,26-35,1,18K-40K,15-21%,25-30,40-60%
+3400, 60 months,B3,RENT,Verified,Vehicle & Major Purchases,0.0,0-1,20-26,0,18K-40K,12-15%,25-30,40-60%
+4500, 36 months,A2,MORTGAGE,Not Verified,Vehicle & Major Purchases,0.0,0,26-35,0,80K-120K,<8%,5-10,20-40%
+20000, 60 months,B4,RENT,Source Verified,Debt Management,0.0,1-2,35+,0,40K-80K,8-12%,15-20,80-100%
+5200, 36 months,B4,RENT,Source Verified,Debt Management,0.0,0,0-10,0,40K-80K,8-12%,20-25,20-40%
+5000, 36 months,C3,RENT,Not Verified,Personal Expenses,0.0,1-2,10-16,0,40K-80K,12-15%,15-20,80-100%
+10000, 36 months,C3,RENT,Not Verified,Debt Management,1.0,1-2,26-35,0,40K-80K,12-15%,20-25,20-40%
+7600, 36 months,B2,RENT,Verified,Debt Management,0.0,0,16-20,0,40K-80K,8-12%,10-15,40-60%
+9000, 36 months,C1,RENT,Not Verified,Personal Expenses,0.0,0,0-10,0,18K-40K,8-12%,5-10,60-80%
+12000, 36 months,A3,MORTGAGE,Not Verified,Home & Property,0.0,0-1,10-16,0,40K-80K,<8%,15-20,40-60%
+8000, 36 months,B3,MORTGAGE,Not Verified,Debt Management,0.0,0,10-16,0,40K-80K,8-12%,10-15,80-100%
+10000, 36 months,A4,RENT,Source Verified,Debt Management,0.0,0,10-16,0,18K-40K,<8%,15-20,40-60%
+11000, 36 months,D3,RENT,Verified,Debt Management,0.0,0,26-35,0,>120K,15-21%,15-20,80-100%
+7700, 36 months,B3,RENT,Not Verified,Debt Management,0.0,0,26-35,0,80K-120K,12-15%,10-15,40-60%
+24000, 60 months,C5,MORTGAGE,Verified,Debt Management,1.0,0-1,35+,0,40K-80K,15-21%,25-30,40-60%
+9000, 36 months,A3,OWN,Not Verified,Debt Management,0.0,0,20-26,0,40K-80K,<8%,30-35,20-40%
+11000, 60 months,C1,MORTGAGE,Verified,Debt Management,0.0,0-1,16-20,0,18K-40K,12-15%,15-20,60-80%
+13000, 36 months,B3,MORTGAGE,Not Verified,Debt Management,0.0,0,35+,0,40K-80K,8-12%,20-25,40-60%
+6000, 60 months,E3,MORTGAGE,Verified,Home & Property,1.0,2+,35+,0,>120K,15-21%,15-20,80-100%
+12000, 36 months,C3,OWN,Not Verified,Debt Management,0.0,0,10-16,0,40K-80K,15-21%,15-20,80-100%
+6500, 36 months,D5,MORTGAGE,Not Verified,Debt Management,1.0,0-1,35+,0,40K-80K,15-21%,15-20,80-100%
+23000, 60 months,E2,RENT,Source Verified,Debt Management,0.0,0,10-16,0,40K-80K,15-21%,15-20,60-80%
+28000, 36 months,A5,MORTGAGE,Source Verified,Debt Management,0.0,0-1,35+,0,80K-120K,8-12%,5-10,40-60%
+6400, 36 months,C3,RENT,Not Verified,Debt Management,0.0,0,26-35,0,80K-120K,15-21%,15-20,80-100%
+6000, 36 months,B5,RENT,Not Verified,Debt Management,1.0,0,20-26,0,40K-80K,12-15%,20-25,60-80%
+15000, 36 months,B4,RENT,Verified,Debt Management,0.0,2+,20-26,0,40K-80K,12-15%,20-25,60-80%
+33600, 60 months,F2,MORTGAGE,Verified,Debt Management,0.0,0-1,26-35,0,>120K,21-24%,10-15,80-100%
+4000, 36 months,E2,MORTGAGE,Source Verified,Debt Management,0.0,0-1,10-16,0,18K-40K,15-21%,15-20,60-80%
+19725, 60 months,E4,MORTGAGE,Source Verified,Vehicle & Major Purchases,0.0,0-1,35+,0,40K-80K,21-24%,15-20,80-100%
+5875, 36 months,C1,RENT,Source Verified,Debt Management,0.0,0,10-16,0,18K-40K,12-15%,30-35,80-100%
+9450, 36 months,D1,RENT,Not Verified,Debt Management,0.0,0-1,10-16,0,18K-40K,15-21%,20-25,60-80%
+12700, 36 months,C3,MORTGAGE,Verified,Debt Management,0.0,0-1,26-35,1,18K-40K,15-21%,25-30,60-80%
+24000, 60 months,G1,RENT,Verified,Debt Management,0.0,2+,35+,0,>120K,>24%,25-30,60-80%
+4350, 36 months,C1,RENT,Not Verified,Debt Management,0.0,2+,0-10,0,<18K,12-15%,20-25,60-80%
+9000, 36 months,B3,RENT,Verified,Debt Management,0.0,0,20-26,0,18K-40K,8-12%,5-10,40-60%
+7500, 36 months,C1,RENT,Source Verified,Debt Management,0.0,0-1,16-20,0,18K-40K,12-15%,15-20,20-40%
+4800, 60 months,C1,MORTGAGE,Not Verified,Vehicle & Major Purchases,0.0,0,35+,0,>120K,12-15%,15-20,60-80%
+10000, 36 months,D5,RENT,Verified,Debt Management,0.0,1-2,0-10,0,18K-40K,15-21%,15-20,60-80%
+12825, 36 months,F1,MORTGAGE,Verified,Debt Management,1.0,0,20-26,1,18K-40K,21-24%,>35,20-40%
+12000, 36 months,C1,RENT,Not Verified,Debt Management,0.0,0-1,16-20,0,40K-80K,12-15%,5-10,60-80%
+6075, 36 months,B1,RENT,Not Verified,Debt Management,0.0,0,0-10,0,18K-40K,8-12%,15-20,60-80%
+15000, 36 months,B4,MORTGAGE,Verified,Debt Management,0.0,2+,20-26,0,40K-80K,12-15%,10-15,20-40%
+8000, 36 months,C3,MORTGAGE,Not Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,15-21%,20-25,40-60%
+3750, 36 months,A4,MORTGAGE,Not Verified,Debt Management,0.0,0,26-35,0,18K-40K,<8%,10-15,20-40%
+16100, 60 months,C2,MORTGAGE,Verified,Debt Management,1.0,0,16-20,1,40K-80K,15-21%,25-30,80-100%
+19800, 60 months,D1,MORTGAGE,Source Verified,Vehicle & Major Purchases,0.0,0,20-26,0,80K-120K,15-21%,30-35,20-40%
+12000, 36 months,B3,RENT,Not Verified,Debt Management,0.0,0,26-35,0,40K-80K,8-12%,20-25,40-60%
+17000, 36 months,B4,RENT,Verified,Debt Management,0.0,0,10-16,0,40K-80K,12-15%,15-20,40-60%
+8000, 36 months,D4,OWN,Verified,Debt Management,0.0,0-1,10-16,0,40K-80K,15-21%,10-15,80-100%
+12000, 60 months,F3,RENT,Source Verified,Debt Management,0.0,2+,26-35,0,40K-80K,21-24%,20-25,40-60%
+10000, 36 months,D2,MORTGAGE,Verified,Debt Management,1.0,0,10-16,0,40K-80K,15-21%,5-10,40-60%
+9800, 36 months,C1,RENT,Source Verified,Debt Management,0.0,0,16-20,0,40K-80K,12-15%,15-20,80-100%
+28000, 36 months,A3,MORTGAGE,Not Verified,Debt Management,0.0,0,35+,0,80K-120K,<8%,10-15,20-40%
+16000, 36 months,B1,MORTGAGE,Source Verified,Debt Management,0.0,2+,20-26,0,80K-120K,8-12%,25-30,40-60%
+30000, 36 months,C1,RENT,Verified,Debt Management,0.0,0,10-16,0,80K-120K,12-15%,25-30,80-100%
+19200, 36 months,D4,RENT,Verified,Debt Management,0.0,1-2,0-10,0,>120K,15-21%,5-10,80-100%
+2400, 36 months,E1,MORTGAGE,Not Verified,Business & Education,0.0,0-1,26-35,0,80K-120K,15-21%,10-15,80-100%
+21600, 60 months,C5,RENT,Source Verified,Debt Management,0.0,0,10-16,0,40K-80K,15-21%,20-25,<20%
+15600, 36 months,B4,RENT,Source Verified,Debt Management,0.0,0,0-10,0,40K-80K,12-15%,5-10,60-80%
+4000, 36 months,C1,RENT,Not Verified,Debt Management,0.0,0,10-16,0,18K-40K,12-15%,15-20,40-60%
+7000, 36 months,B4,RENT,Not Verified,Vehicle & Major Purchases,0.0,2+,10-16,0,40K-80K,12-15%,25-30,40-60%
+14975, 36 months,C2,MORTGAGE,Not Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,12-15%,10-15,60-80%
+6000, 36 months,C1,OWN,Not Verified,Vehicle & Major Purchases,0.0,0,16-20,0,40K-80K,12-15%,<5,80-100%
+3900, 36 months,E3,RENT,Verified,Home & Property,0.0,1-2,10-16,1,18K-40K,21-24%,20-25,80-100%
+15000, 60 months,F4,RENT,Verified,Personal Expenses,0.0,0-1,20-26,0,40K-80K,>24%,10-15,40-60%
+12000, 36 months,D4,RENT,Verified,Debt Management,0.0,1-2,10-16,0,18K-40K,15-21%,20-25,80-100%
+9250, 36 months,C1,MORTGAGE,Verified,Debt Management,0.0,1-2,20-26,0,40K-80K,12-15%,15-20,80-100%
+10000, 36 months,C2,OWN,Not Verified,Debt Management,0.0,0,16-20,0,18K-40K,12-15%,15-20,40-60%
+9000, 36 months,C2,RENT,Source Verified,Debt Management,0.0,0-1,20-26,0,18K-40K,12-15%,30-35,40-60%
+30750, 36 months,E4,RENT,Verified,Personal Expenses,0.0,1-2,20-26,0,40K-80K,21-24%,15-20,40-60%
+8000, 36 months,A4,OWN,Source Verified,Debt Management,0.0,0,20-26,0,40K-80K,<8%,10-15,20-40%
+2400, 36 months,B4,MORTGAGE,Source Verified,Debt Management,0.0,0-1,35+,0,80K-120K,8-12%,20-25,40-60%
+7600, 36 months,C4,RENT,Verified,Vehicle & Major Purchases,0.0,0-1,20-26,0,18K-40K,15-21%,20-25,40-60%
+9200, 36 months,A2,RENT,Source Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,<8%,25-30,20-40%
+16000, 60 months,C5,MORTGAGE,Verified,Debt Management,0.0,0-1,35+,0,40K-80K,15-21%,5-10,20-40%
+6075, 36 months,C2,RENT,Not Verified,Debt Management,0.0,0-1,20-26,0,18K-40K,15-21%,20-25,80-100%
+18000, 36 months,D1,MORTGAGE,Not Verified,Debt Management,0.0,1-2,16-20,0,40K-80K,12-15%,10-15,80-100%
+8300, 36 months,D3,MORTGAGE,Source Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,15-21%,15-20,40-60%
+9575, 36 months,C3,MORTGAGE,Not Verified,Home & Property,0.0,0-1,35+,0,80K-120K,12-15%,10-15,20-40%
+12575, 60 months,F4,OWN,Source Verified,Debt Management,0.0,0,16-20,0,18K-40K,>24%,15-20,60-80%
+1700, 36 months,A2,MORTGAGE,Verified,Personal Expenses,0.0,0,35+,0,80K-120K,<8%,<5,60-80%
+15300, 60 months,C5,MORTGAGE,Verified,Debt Management,0.0,0,35+,1,18K-40K,12-15%,20-25,60-80%
+12000, 60 months,E4,MORTGAGE,Verified,Debt Management,0.0,0,35+,0,40K-80K,21-24%,20-25,60-80%
+25000, 36 months,C1,RENT,Not Verified,Debt Management,1.0,0,26-35,0,>120K,8-12%,5-10,20-40%
+9600, 36 months,C3,MORTGAGE,Verified,Debt Management,0.0,1-2,35+,0,40K-80K,12-15%,15-20,60-80%
+5975, 36 months,E3,RENT,Verified,Vehicle & Major Purchases,0.0,0,10-16,1,18K-40K,15-21%,10-15,60-80%
+34400, 36 months,D2,RENT,Verified,Debt Management,0.0,0,0-10,0,>120K,15-21%,5-10,80-100%
+5000, 36 months,C3,RENT,Source Verified,Debt Management,0.0,0,10-16,0,18K-40K,12-15%,10-15,60-80%
+35000, 36 months,C3,MORTGAGE,Source Verified,Debt Management,1.0,0-1,16-20,0,80K-120K,12-15%,10-15,60-80%
+21625, 36 months,B4,MORTGAGE,Verified,Debt Management,0.0,0-1,16-20,0,40K-80K,12-15%,20-25,80-100%
+20250, 36 months,C1,RENT,Verified,Debt Management,1.0,0,26-35,0,40K-80K,12-15%,20-25,40-60%
+5000, 36 months,B1,MORTGAGE,Not Verified,Debt Management,0.0,0,16-20,0,40K-80K,8-12%,20-25,20-40%
+35000, 36 months,D2,RENT,Verified,Debt Management,0.0,0,26-35,0,80K-120K,15-21%,20-25,80-100%
+20000, 36 months,E1,MORTGAGE,Verified,Debt Management,0.0,0-1,35+,0,80K-120K,15-21%,15-20,60-80%
+16000, 36 months,A2,RENT,Verified,Debt Management,0.0,0-1,26-35,0,40K-80K,<8%,30-35,20-40%
+35000, 60 months,D2,MORTGAGE,Verified,Debt Management,1.0,0,16-20,0,80K-120K,15-21%,10-15,40-60%
+18000, 36 months,B3,OWN,Not Verified,Debt Management,0.0,1-2,35+,0,80K-120K,8-12%,15-20,<20%
+5600, 36 months,A4,RENT,Not Verified,Personal Expenses,0.0,1-2,10-16,0,18K-40K,<8%,20-25,40-60%
+8000, 36 months,B5,RENT,Source Verified,Debt Management,0.0,0-1,0-10,0,18K-40K,8-12%,5-10,80-100%
+20000, 36 months,C1,MORTGAGE,Verified,Debt Management,0.0,1-2,35+,0,80K-120K,12-15%,10-15,20-40%
+6500, 36 months,C2,RENT,Verified,Debt Management,0.0,0,10-16,0,18K-40K,15-21%,5-10,60-80%
+10000, 36 months,C4,RENT,Not Verified,Debt Management,0.0,1-2,16-20,0,40K-80K,15-21%,20-25,60-80%
+5375, 36 months,C4,RENT,Not Verified,Debt Management,0.0,0,26-35,0,18K-40K,15-21%,25-30,60-80%
+12000, 36 months,C1,MORTGAGE,Verified,Debt Management,1.0,0-1,10-16,0,40K-80K,12-15%,20-25,80-100%
+19000, 36 months,A5,MORTGAGE,Not Verified,Debt Management,1.0,0,26-35,0,80K-120K,8-12%,<5,<20%
+24000, 36 months,A4,RENT,Source Verified,Debt Management,1.0,0-1,26-35,0,80K-120K,<8%,<5,20-40%
+15000, 60 months,C2,MORTGAGE,Source Verified,Debt Management,0.0,0-1,35+,0,80K-120K,15-21%,10-15,20-40%
+7000, 36 months,A2,MORTGAGE,Not Verified,Debt Management,0.0,0,10-16,0,40K-80K,<8%,5-10,20-40%
+3000, 36 months,B1,MORTGAGE,Not Verified,Home & Property,0.0,0-1,10-16,0,40K-80K,8-12%,5-10,60-80%
+20000, 36 months,C5,RENT,Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,15-21%,25-30,60-80%
+20675, 36 months,D4,MORTGAGE,Source Verified,Business & Education,1.0,0-1,35+,0,>120K,15-21%,15-20,20-40%
+5100, 36 months,C5,MORTGAGE,Not Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,15-21%,20-25,80-100%
+28100, 60 months,E5,OWN,Verified,Debt Management,0.0,0,16-20,0,40K-80K,21-24%,25-30,80-100%
+9325, 36 months,D1,RENT,Source Verified,Debt Management,0.0,0-1,0-10,0,18K-40K,15-21%,20-25,40-60%
+10000, 36 months,D4,OWN,Not Verified,Debt Management,0.0,0-1,16-20,0,18K-40K,15-21%,15-20,80-100%
+3500, 36 months,B2,RENT,Source Verified,Business & Education,1.0,0,35+,0,40K-80K,8-12%,5-10,20-40%
+19575, 36 months,C4,MORTGAGE,Verified,Home & Property,0.0,0,35+,0,40K-80K,12-15%,10-15,40-60%
+13350, 60 months,E2,RENT,Source Verified,Debt Management,0.0,0,10-16,0,40K-80K,21-24%,20-25,40-60%
+6500, 36 months,B2,OWN,Verified,Debt Management,0.0,0-1,35+,0,40K-80K,8-12%,15-20,40-60%
+2500, 36 months,D3,RENT,Not Verified,Debt Management,0.0,2+,35+,0,18K-40K,15-21%,<5,80-100%
+15000, 36 months,B3,MORTGAGE,Source Verified,Personal Expenses,0.0,0,10-16,0,18K-40K,8-12%,5-10,20-40%
+20000, 36 months,A5,MORTGAGE,Verified,Debt Management,0.0,0,20-26,0,80K-120K,8-12%,5-10,40-60%
+18000, 36 months,C2,RENT,Source Verified,Debt Management,0.0,0-1,10-16,0,40K-80K,12-15%,5-10,60-80%
+10000, 36 months,B4,RENT,Verified,Business & Education,0.0,0-1,20-26,0,18K-40K,12-15%,20-25,60-80%
+1650, 36 months,C1,MORTGAGE,Not Verified,Debt Management,0.0,0-1,16-20,0,40K-80K,12-15%,10-15,40-60%
+12000, 36 months,C1,MORTGAGE,Verified,Debt Management,0.0,2+,35+,0,80K-120K,12-15%,20-25,40-60%
+5300, 36 months,D3,RENT,Not Verified,Personal Expenses,0.0,0,10-16,0,18K-40K,15-21%,5-10,20-40%
+12250, 36 months,A4,MORTGAGE,Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,<8%,10-15,40-60%
+21100, 36 months,B3,RENT,Not Verified,Debt Management,0.0,0,10-16,0,40K-80K,12-15%,20-25,80-100%
+7000, 36 months,A1,MORTGAGE,Source Verified,Debt Management,0.0,0,20-26,0,40K-80K,<8%,15-20,<20%
+15200, 36 months,B1,MORTGAGE,Not Verified,Debt Management,1.0,0,26-35,0,80K-120K,8-12%,5-10,20-40%
+12000, 36 months,B1,MORTGAGE,Verified,Debt Management,0.0,0-1,16-20,0,40K-80K,8-12%,20-25,40-60%
+5000, 36 months,B1,MORTGAGE,Not Verified,Debt Management,0.0,0,20-26,0,80K-120K,8-12%,20-25,60-80%
+19800, 60 months,B3,MORTGAGE,Not Verified,Vehicle & Major Purchases,0.0,0,20-26,0,80K-120K,8-12%,<5,40-60%
+15000, 36 months,A4,MORTGAGE,Not Verified,Debt Management,0.0,0,20-26,0,40K-80K,<8%,10-15,20-40%
+4200, 60 months,B1,RENT,Verified,Debt Management,0.0,0,16-20,0,18K-40K,8-12%,15-20,20-40%
+5000, 36 months,D3,RENT,Not Verified,Debt Management,0.0,1-2,16-20,0,40K-80K,15-21%,<5,40-60%
+25000, 36 months,B3,RENT,Not Verified,Debt Management,0.0,0-1,26-35,0,40K-80K,12-15%,25-30,40-60%
+14000, 36 months,B3,RENT,Source Verified,Debt Management,0.0,1-2,26-35,0,>120K,12-15%,10-15,60-80%
+16750, 60 months,E1,MORTGAGE,Source Verified,Debt Management,0.0,0,35+,0,18K-40K,15-21%,30-35,20-40%
+7000, 36 months,C5,RENT,Source Verified,Debt Management,0.0,0-1,26-35,0,18K-40K,15-21%,5-10,40-60%
+2200, 36 months,B5,MORTGAGE,Not Verified,Debt Management,0.0,0,26-35,0,40K-80K,8-12%,20-25,80-100%
+25000, 36 months,A5,MORTGAGE,Verified,Debt Management,0.0,0,26-35,0,>120K,8-12%,15-20,60-80%
+20000, 36 months,B5,OWN,Verified,Home & Property,1.0,0-1,20-26,0,80K-120K,12-15%,5-10,20-40%
+8875, 36 months,C1,RENT,Verified,Debt Management,0.0,0,20-26,0,40K-80K,12-15%,15-20,40-60%
+22800, 60 months,F3,MORTGAGE,Verified,Debt Management,1.0,0,16-20,1,40K-80K,21-24%,20-25,80-100%
+25000, 36 months,B3,RENT,Not Verified,Debt Management,1.0,2+,35+,0,>120K,8-12%,5-10,40-60%
+28000, 60 months,B2,MORTGAGE,Source Verified,Home & Property,0.0,1-2,20-26,0,>120K,8-12%,5-10,60-80%
+3950, 60 months,C3,OWN,Verified,Debt Management,0.0,0,10-16,0,18K-40K,15-21%,10-15,20-40%
+30000, 60 months,E2,MORTGAGE,Verified,Debt Management,0.0,0,35+,0,40K-80K,21-24%,20-25,60-80%
+24000, 36 months,B3,RENT,Source Verified,Debt Management,0.0,0-1,0-10,0,40K-80K,8-12%,15-20,40-60%
+10200, 36 months,F1,RENT,Source Verified,Debt Management,0.0,0,0-10,0,18K-40K,21-24%,15-20,80-100%
+27000, 36 months,B2,MORTGAGE,Source Verified,Debt Management,0.0,1-2,10-16,0,>120K,8-12%,5-10,20-40%
+9775, 36 months,C2,RENT,Verified,Debt Management,0.0,0,26-35,0,40K-80K,12-15%,10-15,60-80%
+9100, 36 months,C2,MORTGAGE,Not Verified,Home & Property,0.0,0,20-26,0,80K-120K,12-15%,5-10,40-60%
+33425, 60 months,E3,MORTGAGE,Verified,Debt Management,0.0,0-1,16-20,0,40K-80K,21-24%,20-25,80-100%
+13000, 60 months,C4,RENT,Source Verified,Debt Management,0.0,0,10-16,0,18K-40K,12-15%,20-25,60-80%
+16800, 60 months,C4,MORTGAGE,Not Verified,Debt Management,0.0,0,20-26,0,>120K,12-15%,5-10,60-80%
+6000, 36 months,A5,RENT,Not Verified,Vehicle & Major Purchases,0.0,2+,26-35,0,80K-120K,<8%,10-15,40-60%
+19750, 36 months,B5,RENT,Verified,Debt Management,1.0,0,20-26,0,40K-80K,12-15%,25-30,40-60%
+7125, 36 months,D2,OWN,Verified,Home & Property,1.0,0-1,20-26,1,40K-80K,15-21%,15-20,80-100%
+4000, 36 months,C4,MORTGAGE,Not Verified,Debt Management,0.0,2+,26-35,0,40K-80K,12-15%,15-20,60-80%
+12000, 36 months,B3,RENT,Verified,Debt Management,0.0,0,0-10,0,80K-120K,8-12%,10-15,80-100%
+24000, 60 months,C4,OWN,Verified,Debt Management,0.0,0,26-35,0,40K-80K,15-21%,20-25,40-60%
+4800, 36 months,B4,RENT,Not Verified,Personal Expenses,0.0,0-1,10-16,0,40K-80K,12-15%,20-25,80-100%
+5275, 36 months,C2,MORTGAGE,Not Verified,Vehicle & Major Purchases,0.0,0-1,16-20,0,40K-80K,12-15%,5-10,40-60%
+1500, 36 months,A2,RENT,Not Verified,Debt Management,0.0,0,16-20,0,40K-80K,<8%,10-15,40-60%
+9600, 36 months,C1,MORTGAGE,Not Verified,Debt Management,0.0,0-1,10-16,0,40K-80K,12-15%,15-20,60-80%
+27000, 60 months,E4,OWN,Source Verified,Debt Management,1.0,0-1,26-35,0,40K-80K,21-24%,25-30,60-80%
+20000, 36 months,B3,MORTGAGE,Verified,Debt Management,0.0,0,35+,0,80K-120K,12-15%,15-20,60-80%
+8000, 36 months,A1,RENT,Not Verified,Personal Expenses,0.0,0,26-35,0,80K-120K,<8%,5-10,<20%
+3000, 36 months,C1,RENT,Not Verified,Debt Management,0.0,0,26-35,0,>120K,12-15%,10-15,60-80%
+9600, 36 months,E5,OWN,Verified,Personal Expenses,0.0,0,26-35,1,40K-80K,21-24%,15-20,80-100%
+8000, 36 months,C1,MORTGAGE,Not Verified,Debt Management,0.0,0,16-20,0,18K-40K,12-15%,15-20,40-60%
+9600, 36 months,C2,RENT,Source Verified,Debt Management,0.0,0,20-26,0,18K-40K,12-15%,10-15,60-80%
+3900, 36 months,A2,MORTGAGE,Not Verified,Debt Management,0.0,0-1,35+,0,80K-120K,<8%,10-15,<20%
+17000, 60 months,B4,OWN,Not Verified,Debt Management,0.0,0,26-35,0,40K-80K,8-12%,15-20,80-100%
+24250, 36 months,B4,MORTGAGE,Verified,Debt Management,0.0,0,26-35,0,80K-120K,12-15%,15-20,20-40%
+8000, 36 months,D2,RENT,Not Verified,Debt Management,0.0,0-1,35+,0,18K-40K,15-21%,25-30,60-80%
+26100, 60 months,D1,MORTGAGE,Source Verified,Debt Management,0.0,0,10-16,0,40K-80K,15-21%,15-20,20-40%
+9600, 36 months,C2,RENT,Verified,Debt Management,0.0,0,10-16,0,18K-40K,12-15%,5-10,60-80%
+12000, 36 months,B3,MORTGAGE,Not Verified,Debt Management,0.0,0,10-16,0,80K-120K,12-15%,15-20,60-80%
+9000, 36 months,C5,RENT,Verified,Debt Management,0.0,0,10-16,0,18K-40K,15-21%,30-35,80-100%
+28000, 36 months,D1,MORTGAGE,Source Verified,Debt Management,0.0,0,35+,0,>120K,15-21%,25-30,80-100%
+11000, 36 months,D4,MORTGAGE,Source Verified,Vehicle & Major Purchases,1.0,0,16-20,0,40K-80K,15-21%,15-20,80-100%
+20000, 36 months,A4,MORTGAGE,Verified,Debt Management,0.0,0,26-35,0,40K-80K,<8%,20-25,40-60%
+5000, 36 months,D3,OWN,Not Verified,Debt Management,1.0,2+,26-35,0,40K-80K,15-21%,15-20,60-80%
+20000, 36 months,C1,RENT,Not Verified,Debt Management,0.0,0-1,0-10,0,40K-80K,12-15%,10-15,40-60%
+24000, 36 months,A4,MORTGAGE,Verified,Debt Management,0.0,0,35+,0,80K-120K,<8%,10-15,60-80%
+11200, 36 months,C1,MORTGAGE,Verified,Debt Management,0.0,0,10-16,0,18K-40K,12-15%,5-10,60-80%
+7000, 36 months,B4,RENT,Not Verified,Debt Management,0.0,2+,16-20,0,40K-80K,12-15%,10-15,20-40%
+9600, 36 months,B4,RENT,Not Verified,Debt Management,0.0,1-2,26-35,0,40K-80K,12-15%,15-20,20-40%
+10675, 36 months,A5,MORTGAGE,Not Verified,Debt Management,0.0,0,0-10,0,18K-40K,8-12%,10-15,40-60%
+7350, 36 months,A2,MORTGAGE,Source Verified,Debt Management,0.0,0-1,16-20,0,80K-120K,<8%,<5,20-40%
+22000, 36 months,A4,MORTGAGE,Verified,Debt Management,0.0,0-1,35+,1,>120K,<8%,5-10,40-60%
+9000, 36 months,B2,MORTGAGE,Not Verified,Vehicle & Major Purchases,0.0,0,26-35,0,40K-80K,8-12%,15-20,<20%
+32000, 36 months,A5,MORTGAGE,Verified,Debt Management,0.0,0,35+,0,>120K,8-12%,5-10,40-60%
+17000, 60 months,E2,RENT,Verified,Debt Management,0.0,2+,26-35,0,40K-80K,15-21%,15-20,<20%
+15400, 60 months,E1,MORTGAGE,Verified,Debt Management,0.0,2+,26-35,0,40K-80K,15-21%,10-15,40-60%
+7750, 60 months,F3,RENT,Verified,Debt Management,1.0,2+,20-26,0,40K-80K,21-24%,5-10,40-60%
+10500, 36 months,D1,RENT,Source Verified,Debt Management,0.0,0-1,0-10,0,18K-40K,15-21%,10-15,40-60%
+12000, 36 months,A4,RENT,Source Verified,Debt Management,0.0,0-1,26-35,0,40K-80K,<8%,<5,<20%
+24000, 36 months,B5,MORTGAGE,Verified,Debt Management,0.0,0,35+,0,40K-80K,12-15%,30-35,80-100%
+35000, 36 months,A5,RENT,Source Verified,Debt Management,0.0,0,35+,0,80K-120K,8-12%,20-25,20-40%
+15000, 36 months,C4,MORTGAGE,Verified,Debt Management,0.0,0,35+,0,40K-80K,12-15%,30-35,80-100%
+19125, 36 months,A5,MORTGAGE,Verified,Debt Management,0.0,0,26-35,1,40K-80K,8-12%,25-30,80-100%
+20000, 36 months,E2,RENT,Source Verified,Debt Management,0.0,0-1,10-16,0,>120K,15-21%,5-10,40-60%
+20000, 36 months,C1,MORTGAGE,Source Verified,Debt Management,0.0,2+,10-16,0,80K-120K,12-15%,<5,<20%
+1800, 36 months,A2,OWN,Not Verified,Home & Property,0.0,0,0-10,0,<18K,<8%,5-10,<20%
+5000, 36 months,A4,MORTGAGE,Not Verified,Debt Management,0.0,1-2,35+,0,>120K,<8%,20-25,60-80%
+12000, 36 months,B3,RENT,Not Verified,Debt Management,0.0,0,16-20,0,40K-80K,12-15%,20-25,80-100%
+6800, 36 months,B4,MORTGAGE,Source Verified,Debt Management,0.0,0,26-35,0,18K-40K,12-15%,25-30,40-60%
+7500, 36 months,A1,MORTGAGE,Not Verified,Debt Management,0.0,0,0-10,0,80K-120K,<8%,10-15,40-60%
+4300, 36 months,C1,RENT,Source Verified,Debt Management,0.0,0,20-26,1,40K-80K,12-15%,10-15,40-60%
+6075, 36 months,B4,RENT,Verified,Debt Management,0.0,1-2,16-20,0,40K-80K,12-15%,15-20,40-60%
+10800, 60 months,F4,OWN,Verified,Debt Management,1.0,0-1,20-26,0,18K-40K,>24%,15-20,80-100%
+9000, 36 months,C1,RENT,Not Verified,Debt Management,0.0,0-1,16-20,0,40K-80K,12-15%,25-30,60-80%
+4950, 36 months,F1,RENT,Source Verified,Debt Management,0.0,0-1,0-10,0,40K-80K,21-24%,<5,60-80%
+8500, 36 months,B1,RENT,Not Verified,Debt Management,0.0,0,10-16,0,18K-40K,8-12%,10-15,40-60%
+5600, 36 months,A2,MORTGAGE,Source Verified,Vehicle & Major Purchases,0.0,0-1,35+,0,40K-80K,<8%,15-20,20-40%
+8000, 36 months,B5,MORTGAGE,Source Verified,Debt Management,0.0,0,35+,0,40K-80K,12-15%,10-15,40-60%
+16000, 60 months,C4,MORTGAGE,Source Verified,Debt Management,0.0,0,26-35,0,40K-80K,15-21%,5-10,20-40%
+28000, 36 months,A5,MORTGAGE,Verified,Debt Management,0.0,1-2,35+,0,80K-120K,8-12%,15-20,20-40%
+12000, 36 months,B2,MORTGAGE,Verified,Debt Management,0.0,0-1,10-16,1,40K-80K,8-12%,20-25,40-60%
+2400, 36 months,C1,RENT,Not Verified,Personal Expenses,0.0,0,10-16,0,40K-80K,12-15%,15-20,60-80%
+30000, 36 months,C2,MORTGAGE,Verified,Debt Management,0.0,0,35+,0,40K-80K,15-21%,15-20,60-80%
+8500, 36 months,B1,OWN,Source Verified,Debt Management,0.0,0,0-10,0,40K-80K,8-12%,5-10,40-60%
+10000, 36 months,C3,RENT,Not Verified,Debt Management,1.0,0,26-35,0,40K-80K,15-21%,20-25,60-80%
+10000, 60 months,B3,RENT,Source Verified,Debt Management,0.0,0,20-26,0,80K-120K,8-12%,15-20,40-60%
+21000, 60 months,F2,MORTGAGE,Verified,Debt Management,0.0,1-2,16-20,0,40K-80K,>24%,10-15,40-60%
+2400, 36 months,B5,UNSPECIFIED,Verified,Vehicle & Major Purchases,0.0,0,0-10,0,18K-40K,12-15%,5-10,20-40%
+7500, 36 months,B2,MORTGAGE,Source Verified,Debt Management,1.0,0,16-20,0,40K-80K,8-12%,10-15,20-40%
+10000, 36 months,B5,RENT,Not Verified,Debt Management,0.0,0-1,26-35,0,40K-80K,12-15%,25-30,20-40%
+10000, 60 months,E2,RENT,Source Verified,Home & Property,1.0,0,10-16,0,40K-80K,15-21%,20-25,20-40%
+30000, 36 months,C3,RENT,Verified,Debt Management,0.0,1-2,26-35,0,80K-120K,15-21%,10-15,60-80%
+10000, 36 months,B1,MORTGAGE,Verified,Business & Education,0.0,1-2,26-35,0,80K-120K,8-12%,5-10,40-60%
+15775, 36 months,C2,RENT,Source Verified,Debt Management,0.0,0,26-35,0,18K-40K,12-15%,30-35,40-60%
+9600, 36 months,B2,RENT,Source Verified,Debt Management,0.0,0,20-26,0,80K-120K,8-12%,10-15,60-80%
+20500, 60 months,B1,MORTGAGE,Verified,Debt Management,0.0,0,16-20,0,40K-80K,8-12%,20-25,20-40%
+35000, 36 months,C2,RENT,Verified,Vehicle & Major Purchases,0.0,2+,10-16,0,80K-120K,12-15%,5-10,<20%
+2000, 36 months,A3,OWN,Not Verified,Vehicle & Major Purchases,0.0,0,16-20,0,40K-80K,<8%,15-20,20-40%
+7200, 36 months,B1,RENT,Not Verified,Debt Management,0.0,0,26-35,0,80K-120K,8-12%,5-10,60-80%
+2500, 36 months,C1,OWN,Not Verified,Personal Expenses,0.0,1-2,0-10,0,40K-80K,12-15%,<5,20-40%
+3600, 36 months,B2,MORTGAGE,Source Verified,Home & Property,0.0,2+,35+,1,40K-80K,8-12%,20-25,<20%
+20550, 60 months,E1,RENT,Verified,Debt Management,0.0,0,26-35,0,40K-80K,15-21%,15-20,60-80%
+11000, 36 months,C3,RENT,Source Verified,Debt Management,0.0,0,10-16,0,40K-80K,15-21%,20-25,80-100%
+2800, 60 months,B3,RENT,Verified,Vehicle & Major Purchases,1.0,0,20-26,0,40K-80K,12-15%,30-35,20-40%
+12000, 36 months,B5,MORTGAGE,Not Verified,Debt Management,0.0,1-2,26-35,0,40K-80K,12-15%,30-35,40-60%
+12250, 36 months,B1,RENT,Not Verified,Home & Property,0.0,1-2,20-26,0,40K-80K,8-12%,10-15,<20%
+15000, 36 months,A5,MORTGAGE,Not Verified,Debt Management,1.0,0,26-35,0,40K-80K,8-12%,10-15,40-60%
+4500, 36 months,A3,MORTGAGE,Not Verified,Home & Property,0.0,0,26-35,0,80K-120K,<8%,<5,<20%
+16000, 36 months,B5,RENT,Verified,Debt Management,0.0,0,20-26,0,40K-80K,12-15%,15-20,40-60%
+31900, 36 months,C2,MORTGAGE,Verified,Debt Management,0.0,0-1,35+,0,80K-120K,12-15%,15-20,40-60%
+15000, 36 months,B3,MORTGAGE,Not Verified,Debt Management,0.0,0-1,10-16,0,40K-80K,8-12%,5-10,80-100%
+6000, 36 months,A5,RENT,Not Verified,Debt Management,1.0,0,26-35,0,18K-40K,8-12%,20-25,<20%
+12000, 36 months,B3,MORTGAGE,Verified,Debt Management,0.0,0,20-26,0,18K-40K,12-15%,10-15,60-80%
+8000, 36 months,B3,MORTGAGE,Source Verified,Debt Management,1.0,0-1,16-20,0,18K-40K,8-12%,10-15,40-60%
+24250, 60 months,F3,RENT,Verified,Debt Management,0.0,0,26-35,0,40K-80K,21-24%,25-30,80-100%
+2200, 36 months,G5,UNSPECIFIED,Verified,Business & Education,0.0,2+,20-26,0,18K-40K,15-21%,20-25,60-80%
+12000, 60 months,C4,MORTGAGE,Source Verified,Debt Management,0.0,1-2,0-10,0,40K-80K,15-21%,5-10,20-40%
+16000, 36 months,C1,RENT,Not Verified,Debt Management,0.0,0,16-20,0,40K-80K,12-15%,10-15,80-100%
+21250, 36 months,C4,RENT,Verified,Business & Education,0.0,0,35+,0,40K-80K,15-21%,30-35,40-60%
+29000, 36 months,D2,MORTGAGE,Verified,Debt Management,0.0,2+,26-35,0,40K-80K,15-21%,25-30,60-80%
+15500, 36 months,B4,RENT,Not Verified,Debt Management,0.0,0,16-20,0,40K-80K,12-15%,20-25,60-80%
+8000, 36 months,B3,MORTGAGE,Not Verified,Debt Management,0.0,0,26-35,0,40K-80K,12-15%,20-25,60-80%
+22750, 60 months,C5,MORTGAGE,Verified,Debt Management,1.0,0,10-16,0,40K-80K,15-21%,5-10,40-60%
+5000, 36 months,C4,RENT,Not Verified,Debt Management,1.0,0,16-20,0,40K-80K,12-15%,20-25,20-40%
+6000, 36 months,C1,MORTGAGE,Source Verified,Debt Management,0.0,0-1,0-10,0,18K-40K,12-15%,10-15,60-80%
+7200, 36 months,A1,MORTGAGE,Not Verified,Personal Expenses,0.0,0-1,10-16,0,40K-80K,<8%,<5,20-40%
+7200, 36 months,C3,RENT,Source Verified,Debt Management,0.0,0-1,26-35,0,40K-80K,12-15%,15-20,60-80%
+12000, 60 months,D4,RENT,Not Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,15-21%,10-15,40-60%
+5150, 36 months,D5,MORTGAGE,Not Verified,Personal Expenses,0.0,0,20-26,0,80K-120K,15-21%,15-20,60-80%
+19200, 60 months,E1,RENT,Source Verified,Debt Management,0.0,0,35+,0,80K-120K,15-21%,25-30,80-100%
+28000, 36 months,A5,MORTGAGE,Verified,Debt Management,0.0,0,26-35,0,80K-120K,8-12%,<5,40-60%
+9325, 36 months,C5,MORTGAGE,Source Verified,Debt Management,1.0,0,10-16,0,40K-80K,12-15%,15-20,40-60%
+28000, 36 months,B2,RENT,Verified,Debt Management,0.0,1-2,35+,0,80K-120K,8-12%,20-25,40-60%
+20000, 36 months,B2,MORTGAGE,Source Verified,Debt Management,0.0,0-1,35+,0,>120K,8-12%,15-20,40-60%
+2200, 36 months,D3,MORTGAGE,Verified,Personal Expenses,1.0,0-1,35+,0,>120K,15-21%,15-20,60-80%
+35000, 36 months,E3,MORTGAGE,Verified,Debt Management,0.0,2+,26-35,0,>120K,15-21%,5-10,20-40%
+15000, 36 months,B5,RENT,Not Verified,Debt Management,0.0,0-1,26-35,0,80K-120K,12-15%,15-20,40-60%
+12800, 36 months,D4,RENT,Not Verified,Debt Management,1.0,1-2,26-35,0,40K-80K,15-21%,15-20,60-80%
+3000, 36 months,A3,RENT,Not Verified,Debt Management,0.0,0,10-16,0,40K-80K,<8%,20-25,60-80%
+16000, 36 months,B5,MORTGAGE,Not Verified,Debt Management,0.0,0,10-16,0,18K-40K,12-15%,20-25,60-80%
+25000, 60 months,E2,MORTGAGE,Verified,Business & Education,0.0,0,35+,0,>120K,21-24%,<5,<20%
+24000, 60 months,C4,RENT,Verified,Debt Management,0.0,0,20-26,0,40K-80K,15-21%,25-30,40-60%
+18000, 36 months,B4,OWN,Not Verified,Debt Management,0.0,0,16-20,0,40K-80K,8-12%,25-30,60-80%
+35000, 60 months,E4,MORTGAGE,Verified,Debt Management,0.0,0-1,26-35,0,80K-120K,21-24%,10-15,60-80%
+12000, 60 months,E4,RENT,Verified,Debt Management,0.0,0,16-20,0,40K-80K,21-24%,30-35,80-100%
+7200, 36 months,C1,MORTGAGE,Source Verified,Debt Management,0.0,0-1,16-20,0,80K-120K,12-15%,10-15,80-100%
+10400, 36 months,C3,MORTGAGE,Source Verified,Debt Management,1.0,0,10-16,0,80K-120K,12-15%,5-10,20-40%
+14500, 36 months,B5,MORTGAGE,Not Verified,Debt Management,0.0,1-2,16-20,0,80K-120K,12-15%,20-25,80-100%
+1200, 36 months,B3,RENT,Source Verified,Debt Management,0.0,0,0-10,0,40K-80K,8-12%,10-15,80-100%
+10000, 36 months,E5,MORTGAGE,Verified,Debt Management,0.0,0-1,35+,0,80K-120K,21-24%,10-15,60-80%
+5000, 36 months,D2,MORTGAGE,Verified,Personal Expenses,0.0,2+,20-26,0,18K-40K,15-21%,5-10,20-40%
+13100, 60 months,C5,MORTGAGE,Source Verified,Debt Management,0.0,2+,20-26,0,40K-80K,15-21%,15-20,40-60%
+16000, 60 months,C5,MORTGAGE,Source Verified,Debt Management,1.0,0,10-16,0,40K-80K,15-21%,15-20,80-100%
+4275, 36 months,C2,MORTGAGE,Verified,Debt Management,0.0,2+,35+,0,18K-40K,15-21%,20-25,40-60%
+21000, 36 months,A2,MORTGAGE,Verified,Debt Management,0.0,0,26-35,0,80K-120K,<8%,5-10,20-40%
+32600, 36 months,C1,MORTGAGE,Source Verified,Debt Management,0.0,0,35+,0,>120K,12-15%,15-20,40-60%
+3000, 36 months,A3,MORTGAGE,Verified,Personal Expenses,0.0,0,20-26,0,40K-80K,<8%,30-35,40-60%
+15000, 36 months,C2,RENT,Source Verified,Debt Management,0.0,0,0-10,0,18K-40K,12-15%,10-15,40-60%
+8000, 36 months,D3,OWN,Verified,Personal Expenses,0.0,1-2,35+,0,>120K,15-21%,10-15,60-80%
+12000, 36 months,C2,RENT,Source Verified,Debt Management,0.0,0,0-10,0,40K-80K,15-21%,20-25,80-100%
+26400, 60 months,D2,MORTGAGE,Source Verified,Debt Management,0.0,2+,20-26,0,80K-120K,15-21%,10-15,60-80%
+35000, 36 months,A5,MORTGAGE,Source Verified,Debt Management,0.0,0-1,26-35,0,80K-120K,8-12%,25-30,<20%
+4800, 36 months,E2,RENT,Not Verified,Vehicle & Major Purchases,0.0,0-1,26-35,0,18K-40K,21-24%,15-20,20-40%
+4000, 36 months,D1,RENT,Source Verified,Debt Management,1.0,0,35+,0,40K-80K,15-21%,<5,40-60%
+15850, 36 months,B1,RENT,Verified,Debt Management,0.0,0,26-35,0,>120K,8-12%,10-15,80-100%
+10400, 36 months,B2,RENT,Not Verified,Debt Management,0.0,0-1,16-20,0,18K-40K,8-12%,25-30,40-60%
+8000, 36 months,B1,MORTGAGE,Not Verified,Home & Property,1.0,0,35+,0,80K-120K,8-12%,10-15,60-80%
+8400, 36 months,B1,RENT,Not Verified,Debt Management,0.0,0-1,16-20,0,18K-40K,8-12%,20-25,20-40%
+7300, 36 months,A1,MORTGAGE,Verified,Vehicle & Major Purchases,0.0,0,20-26,0,>120K,<8%,<5,20-40%
+9175, 36 months,D1,MORTGAGE,Verified,Debt Management,0.0,0-1,26-35,0,40K-80K,15-21%,25-30,80-100%
+1925, 36 months,B1,OWN,Not Verified,Personal Expenses,0.0,1-2,10-16,0,40K-80K,8-12%,<5,20-40%
+26375, 36 months,C5,RENT,Source Verified,Debt Management,0.0,0-1,16-20,0,40K-80K,15-21%,15-20,80-100%
+3000, 36 months,A5,MORTGAGE,Verified,Personal Expenses,0.0,0,35+,0,>120K,8-12%,20-25,60-80%
+12000, 36 months,B5,RENT,Source Verified,Debt Management,1.0,0,26-35,0,40K-80K,12-15%,10-15,60-80%
+20400, 36 months,B3,RENT,Verified,Debt Management,0.0,0,26-35,0,40K-80K,12-15%,20-25,40-60%
+15000, 36 months,A4,MORTGAGE,Source Verified,Debt Management,0.0,2+,26-35,0,40K-80K,<8%,<5,<20%
+18000, 60 months,E3,MORTGAGE,Verified,Debt Management,1.0,0-1,35+,0,>120K,21-24%,15-20,80-100%
+24000, 60 months,C5,OWN,Verified,Debt Management,0.0,0,26-35,0,80K-120K,15-21%,15-20,20-40%
+28000, 36 months,A3,MORTGAGE,Source Verified,Debt Management,0.0,0,26-35,0,>120K,<8%,<5,40-60%
+24000, 60 months,E4,RENT,Verified,Debt Management,1.0,0,20-26,0,40K-80K,21-24%,20-25,80-100%
+24000, 60 months,B4,RENT,Verified,Debt Management,0.0,0,10-16,0,>120K,12-15%,10-15,80-100%
+14000, 36 months,C1,RENT,Not Verified,Debt Management,0.0,1-2,20-26,0,40K-80K,12-15%,25-30,20-40%
+27450, 60 months,C3,RENT,Source Verified,Debt Management,0.0,0,35+,0,40K-80K,12-15%,>35,40-60%
+4800, 36 months,B5,RENT,Not Verified,Debt Management,0.0,1-2,20-26,0,40K-80K,12-15%,25-30,40-60%
+21000, 60 months,C2,MORTGAGE,Source Verified,Debt Management,0.0,0,35+,1,80K-120K,12-15%,10-15,40-60%
+10000, 36 months,C3,RENT,Source Verified,Debt Management,0.0,2+,20-26,0,40K-80K,15-21%,10-15,80-100%
+8500, 36 months,C1,MORTGAGE,Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,12-15%,15-20,<20%
+5975, 36 months,D2,RENT,Not Verified,Personal Expenses,0.0,1-2,16-20,0,40K-80K,12-15%,15-20,80-100%
+13300, 60 months,G2,RENT,Source Verified,Debt Management,0.0,1-2,10-16,0,18K-40K,>24%,10-15,60-80%
+10375, 36 months,A2,MORTGAGE,Verified,Debt Management,0.0,0-1,26-35,0,40K-80K,<8%,15-20,20-40%
+5000, 36 months,A3,RENT,Not Verified,Business & Education,0.0,0,10-16,0,18K-40K,<8%,15-20,<20%
+7500, 36 months,C2,RENT,Verified,Debt Management,0.0,1-2,16-20,0,18K-40K,8-12%,10-15,60-80%
+5000, 36 months,D4,MORTGAGE,Source Verified,Home & Property,1.0,2+,35+,0,40K-80K,15-21%,20-25,80-100%
+4500, 36 months,C2,RENT,Not Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,12-15%,10-15,20-40%
+35000, 60 months,E2,RENT,Verified,Debt Management,0.0,0-1,35+,0,80K-120K,15-21%,10-15,40-60%
+6500, 36 months,E4,RENT,Source Verified,Home & Property,1.0,0,0-10,0,80K-120K,21-24%,<5,<20%
+2500, 36 months,B4,RENT,Source Verified,Vehicle & Major Purchases,0.0,0,16-20,0,40K-80K,8-12%,5-10,60-80%
+14125, 36 months,C1,RENT,Not Verified,Debt Management,0.0,0-1,0-10,0,18K-40K,12-15%,15-20,60-80%
+3700, 36 months,B3,RENT,Not Verified,Personal Expenses,1.0,0-1,20-26,0,80K-120K,8-12%,15-20,20-40%
+3000, 36 months,B4,OWN,Not Verified,Debt Management,0.0,0-1,20-26,0,18K-40K,8-12%,15-20,20-40%
+15000, 36 months,B2,MORTGAGE,Not Verified,Debt Management,1.0,0,10-16,0,80K-120K,8-12%,10-15,20-40%
+8000, 36 months,A5,MORTGAGE,Source Verified,Debt Management,0.0,0-1,16-20,0,80K-120K,8-12%,5-10,<20%
+17050, 36 months,C1,MORTGAGE,Verified,Debt Management,1.0,0-1,20-26,0,18K-40K,12-15%,10-15,40-60%
+3500, 36 months,B5,MORTGAGE,Not Verified,Home & Property,0.0,0-1,26-35,0,40K-80K,12-15%,10-15,60-80%
+17000, 36 months,C1,OWN,Not Verified,Debt Management,0.0,0,35+,0,40K-80K,12-15%,20-25,60-80%
+32000, 60 months,D4,MORTGAGE,Source Verified,Debt Management,0.0,0,26-35,0,80K-120K,15-21%,20-25,40-60%
+15750, 36 months,E2,MORTGAGE,Verified,Debt Management,1.0,0-1,26-35,0,18K-40K,15-21%,>35,40-60%
+3000, 36 months,B2,RENT,Not Verified,Debt Management,1.0,0-1,20-26,0,40K-80K,8-12%,30-35,<20%
+7500, 36 months,C2,RENT,Source Verified,Debt Management,0.0,0,0-10,0,40K-80K,12-15%,<5,80-100%
+19200, 36 months,E3,RENT,Not Verified,Debt Management,0.0,0-1,20-26,0,80K-120K,21-24%,5-10,80-100%
+4000, 36 months,E1,RENT,Source Verified,Debt Management,0.0,1-2,16-20,1,18K-40K,15-21%,5-10,20-40%
+13300, 36 months,G2,MORTGAGE,Verified,Debt Management,1.0,1-2,16-20,0,40K-80K,>24%,20-25,80-100%
+20000, 36 months,C5,OWN,Not Verified,Debt Management,0.0,0-1,35+,0,80K-120K,12-15%,15-20,80-100%
+6625, 36 months,B5,RENT,Source Verified,Debt Management,0.0,0-1,20-26,0,18K-40K,12-15%,30-35,80-100%
+22250, 36 months,B3,MORTGAGE,Verified,Debt Management,0.0,0,10-16,0,40K-80K,12-15%,10-15,40-60%
+26000, 36 months,B1,MORTGAGE,Verified,Debt Management,0.0,0,10-16,0,40K-80K,8-12%,5-10,80-100%
+10400, 36 months,B5,MORTGAGE,Not Verified,Debt Management,0.0,0,26-35,0,80K-120K,12-15%,<5,20-40%
+24000, 36 months,A5,MORTGAGE,Source Verified,Debt Management,0.0,0,26-35,0,>120K,8-12%,15-20,40-60%
+2150, 36 months,B5,MORTGAGE,Not Verified,Debt Management,0.0,0,20-26,0,40K-80K,12-15%,10-15,80-100%
+6300, 36 months,A2,MORTGAGE,Not Verified,Debt Management,0.0,0-1,20-26,0,80K-120K,<8%,5-10,<20%
+12000, 60 months,D4,RENT,Source Verified,Debt Management,0.0,0-1,10-16,0,40K-80K,15-21%,15-20,40-60%
+14400, 36 months,A1,MORTGAGE,Not Verified,Debt Management,0.0,0,35+,0,80K-120K,<8%,5-10,20-40%
+13000, 36 months,B1,RENT,Verified,Debt Management,0.0,0,20-26,0,40K-80K,8-12%,25-30,20-40%
+1600, 36 months,B2,RENT,Verified,Debt Management,0.0,0,26-35,0,18K-40K,8-12%,15-20,20-40%
+20000, 36 months,A5,MORTGAGE,Verified,Debt Management,0.0,0-1,26-35,0,40K-80K,8-12%,10-15,40-60%
+12000, 36 months,C4,MORTGAGE,Not Verified,Debt Management,1.0,1-2,20-26,0,80K-120K,15-21%,10-15,80-100%
+35000, 60 months,B5,MORTGAGE,Verified,Personal Expenses,0.0,2+,35+,0,40K-80K,12-15%,5-10,<20%
+22000, 60 months,E2,MORTGAGE,Verified,Debt Management,0.0,0,20-26,0,40K-80K,15-21%,15-20,80-100%
+10000, 36 months,D1,MORTGAGE,Not Verified,Personal Expenses,0.0,0-1,26-35,0,40K-80K,15-21%,5-10,60-80%
+14750, 36 months,C4,MORTGAGE,Source Verified,Debt Management,0.0,0,35+,0,80K-120K,12-15%,15-20,<20%
+4000, 36 months,A2,MORTGAGE,Source Verified,Debt Management,1.0,2+,10-16,0,40K-80K,<8%,10-15,<20%
+7750, 36 months,C2,MORTGAGE,Verified,Personal Expenses,0.0,0,26-35,0,40K-80K,15-21%,15-20,20-40%
+20000, 36 months,C1,RENT,Verified,Debt Management,0.0,2+,26-35,0,>120K,12-15%,10-15,40-60%
+10000, 36 months,A5,MORTGAGE,Not Verified,Debt Management,0.0,0-1,35+,0,18K-40K,8-12%,15-20,<20%
+10000, 36 months,D1,MORTGAGE,Not Verified,Debt Management,0.0,0-1,26-35,0,80K-120K,15-21%,30-35,60-80%
+17475, 36 months,B2,MORTGAGE,Verified,Vehicle & Major Purchases,0.0,0-1,20-26,0,40K-80K,8-12%,<5,<20%
+3000, 36 months,B3,RENT,Source Verified,Debt Management,0.0,0-1,26-35,0,80K-120K,8-12%,10-15,20-40%
+8000, 36 months,D1,RENT,Verified,Debt Management,0.0,1-2,0-10,0,18K-40K,15-21%,<5,20-40%
+9600, 36 months,D5,RENT,Not Verified,Home & Property,0.0,1-2,26-35,0,40K-80K,15-21%,25-30,40-60%
+15000, 36 months,D3,RENT,Source Verified,Debt Management,0.0,0-1,16-20,0,40K-80K,15-21%,15-20,80-100%
+15850, 36 months,C2,MORTGAGE,Verified,Debt Management,0.0,2+,10-16,0,40K-80K,12-15%,20-25,40-60%
+18000, 36 months,B2,MORTGAGE,Not Verified,Debt Management,0.0,0,26-35,0,80K-120K,8-12%,25-30,80-100%
+29700, 60 months,E4,MORTGAGE,Verified,Debt Management,1.0,0,35+,1,40K-80K,15-21%,20-25,40-60%
+10000, 36 months,B2,MORTGAGE,Not Verified,Debt Management,0.0,0,16-20,0,40K-80K,8-12%,15-20,60-80%
+25000, 36 months,D3,MORTGAGE,Not Verified,Personal Expenses,0.0,2+,35+,0,>120K,12-15%,15-20,60-80%
+15000, 36 months,C2,RENT,Verified,Debt Management,0.0,0-1,16-20,1,40K-80K,12-15%,15-20,60-80%
+21000, 36 months,A4,MORTGAGE,Source Verified,Debt Management,0.0,0,26-35,0,>120K,<8%,5-10,60-80%
+2150, 36 months,B4,RENT,Not Verified,Debt Management,0.0,0-1,10-16,0,40K-80K,12-15%,5-10,60-80%
+10000, 36 months,A4,MORTGAGE,Not Verified,Personal Expenses,0.0,1-2,35+,0,80K-120K,8-12%,5-10,<20%
+3000, 36 months,B5,OWN,Not Verified,Home & Property,1.0,0-1,20-26,0,40K-80K,12-15%,10-15,<20%
+7000, 36 months,A1,MORTGAGE,Not Verified,Home & Property,0.0,0,20-26,0,80K-120K,<8%,10-15,<20%
+32350, 60 months,E1,MORTGAGE,Verified,Debt Management,0.0,0,20-26,0,80K-120K,15-21%,30-35,60-80%
+16000, 36 months,A5,MORTGAGE,Not Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,8-12%,20-25,60-80%
+10800, 36 months,D1,MORTGAGE,Verified,Debt Management,1.0,0-1,35+,0,40K-80K,15-21%,20-25,80-100%
+13475, 36 months,C5,MORTGAGE,Verified,Home & Property,0.0,2+,10-16,0,40K-80K,15-21%,5-10,40-60%
+19000, 60 months,B4,OWN,Not Verified,Debt Management,0.0,0-1,35+,0,>120K,8-12%,5-10,20-40%
+7000, 36 months,A2,MORTGAGE,Not Verified,Vehicle & Major Purchases,1.0,0,35+,0,80K-120K,<8%,5-10,<20%
+28000, 60 months,C2,MORTGAGE,Source Verified,Debt Management,0.0,0,35+,0,40K-80K,12-15%,>35,<20%
+12800, 36 months,D5,RENT,Not Verified,Debt Management,0.0,0-1,16-20,0,40K-80K,15-21%,15-20,40-60%
+10800, 36 months,B1,MORTGAGE,Source Verified,Debt Management,0.0,0-1,20-26,0,>120K,8-12%,5-10,40-60%
+7000, 36 months,B4,RENT,Not Verified,Debt Management,1.0,0-1,35+,0,40K-80K,12-15%,25-30,40-60%
+10000, 60 months,B5,MORTGAGE,Source Verified,Debt Management,0.0,0,0-10,0,40K-80K,12-15%,15-20,80-100%
+21600, 36 months,C1,MORTGAGE,Source Verified,Debt Management,0.0,1-2,16-20,0,80K-120K,12-15%,15-20,80-100%
+10000, 36 months,B4,MORTGAGE,Verified,Home & Property,0.0,0,26-35,0,80K-120K,12-15%,10-15,20-40%
+3500, 36 months,D3,RENT,Not Verified,Debt Management,0.0,0,10-16,0,40K-80K,12-15%,20-25,80-100%
+9900, 36 months,B1,OWN,Source Verified,Debt Management,1.0,0,20-26,0,40K-80K,8-12%,10-15,40-60%
+5000, 36 months,C1,RENT,Not Verified,Personal Expenses,0.0,2+,10-16,0,18K-40K,12-15%,15-20,80-100%
+6475, 36 months,B3,RENT,Source Verified,Debt Management,0.0,0,10-16,0,40K-80K,12-15%,5-10,60-80%
+14100, 36 months,B4,RENT,Not Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,12-15%,20-25,20-40%
+21600, 60 months,B2,MORTGAGE,Verified,Debt Management,0.0,0-1,35+,0,40K-80K,8-12%,25-30,40-60%
+16000, 60 months,E2,RENT,Source Verified,Debt Management,0.0,0-1,35+,0,40K-80K,15-21%,30-35,40-60%
+25000, 36 months,A3,MORTGAGE,Not Verified,Debt Management,0.0,2+,20-26,0,40K-80K,<8%,5-10,<20%
+12000, 36 months,B4,RENT,Not Verified,Debt Management,1.0,0,16-20,0,40K-80K,12-15%,5-10,20-40%
+10000, 36 months,C5,RENT,Not Verified,Debt Management,0.0,0,0-10,0,18K-40K,12-15%,10-15,40-60%
+24000, 60 months,B3,MORTGAGE,Source Verified,Home & Property,1.0,0-1,35+,0,>120K,8-12%,15-20,<20%
+20000, 60 months,D1,MORTGAGE,Source Verified,Debt Management,0.0,0-1,35+,0,40K-80K,15-21%,20-25,20-40%
+10000, 60 months,F5,MORTGAGE,Source Verified,Personal Expenses,0.0,0-1,10-16,0,80K-120K,21-24%,15-20,60-80%
+24000, 60 months,E1,OWN,Verified,Debt Management,0.0,0,16-20,0,40K-80K,15-21%,30-35,60-80%
+1500, 36 months,C2,RENT,Not Verified,Personal Expenses,0.0,2+,20-26,0,18K-40K,12-15%,5-10,80-100%
+1000, 36 months,C1,RENT,Not Verified,Personal Expenses,0.0,0,16-20,0,18K-40K,12-15%,20-25,60-80%
+6600, 36 months,A3,RENT,Not Verified,Debt Management,0.0,0,10-16,0,18K-40K,<8%,25-30,20-40%
+13000, 60 months,D1,OWN,Source Verified,Home & Property,0.0,0-1,26-35,0,40K-80K,15-21%,15-20,40-60%
+4800, 36 months,C4,RENT,Not Verified,Vehicle & Major Purchases,0.0,2+,10-16,0,40K-80K,12-15%,10-15,20-40%
+20000, 36 months,B2,MORTGAGE,Verified,Debt Management,0.0,0,20-26,0,40K-80K,8-12%,30-35,60-80%
+24000, 36 months,A5,RENT,Verified,Debt Management,0.0,1-2,10-16,0,80K-120K,8-12%,15-20,20-40%
+16000, 60 months,E2,MORTGAGE,Source Verified,Debt Management,0.0,0,10-16,0,40K-80K,15-21%,20-25,80-100%
+10000, 36 months,C2,RENT,Source Verified,Debt Management,0.0,0,16-20,0,18K-40K,15-21%,15-20,60-80%
+20500, 36 months,C3,RENT,Source Verified,Debt Management,1.0,0-1,20-26,0,40K-80K,12-15%,15-20,<20%
+11000, 36 months,B5,RENT,Verified,Debt Management,0.0,0,20-26,0,40K-80K,12-15%,30-35,40-60%
+7000, 36 months,A5,RENT,Not Verified,Debt Management,0.0,0-1,26-35,0,18K-40K,8-12%,20-25,20-40%
+20000, 60 months,F1,OWN,Source Verified,Personal Expenses,0.0,1-2,20-26,0,40K-80K,21-24%,15-20,20-40%
+7000, 36 months,B4,MORTGAGE,Verified,Debt Management,0.0,2+,10-16,0,80K-120K,12-15%,<5,60-80%
+24250, 60 months,G1,RENT,Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,>24%,25-30,40-60%
+12000, 36 months,B2,RENT,Source Verified,Debt Management,1.0,0,35+,0,40K-80K,8-12%,25-30,40-60%
+8000, 36 months,C4,MORTGAGE,Verified,Personal Expenses,0.0,2+,16-20,0,18K-40K,12-15%,10-15,40-60%
+6000, 36 months,C1,RENT,Verified,Debt Management,1.0,0,10-16,0,18K-40K,12-15%,30-35,40-60%
+4000, 36 months,B1,RENT,Not Verified,Debt Management,0.0,0,20-26,0,80K-120K,8-12%,5-10,40-60%
+30000, 60 months,D3,RENT,Verified,Debt Management,0.0,0-1,26-35,0,40K-80K,15-21%,25-30,40-60%
+5600, 36 months,A4,MORTGAGE,Verified,Debt Management,1.0,1-2,35+,0,18K-40K,<8%,10-15,<20%
+35000, 36 months,A5,MORTGAGE,Source Verified,Business & Education,0.0,0,35+,0,>120K,8-12%,15-20,60-80%
+18000, 36 months,B3,MORTGAGE,Not Verified,Debt Management,0.0,0-1,35+,0,40K-80K,8-12%,25-30,40-60%
+7500, 36 months,B2,MORTGAGE,Source Verified,Debt Management,0.0,0,35+,0,40K-80K,8-12%,30-35,60-80%
+21000, 36 months,B3,RENT,Verified,Debt Management,0.0,0,20-26,0,80K-120K,12-15%,15-20,80-100%
+12000, 36 months,A3,MORTGAGE,Source Verified,Home & Property,0.0,1-2,20-26,0,80K-120K,<8%,<5,<20%
+12000, 36 months,A2,RENT,Source Verified,Debt Management,0.0,0-1,16-20,0,40K-80K,<8%,20-25,40-60%
+10000, 36 months,A2,MORTGAGE,Source Verified,Home & Property,0.0,0,16-20,0,40K-80K,<8%,5-10,<20%
+24000, 36 months,D4,MORTGAGE,Source Verified,Debt Management,0.0,0,35+,0,>120K,15-21%,15-20,60-80%
+7000, 36 months,A5,RENT,Not Verified,Debt Management,0.0,0-1,10-16,0,18K-40K,<8%,10-15,60-80%
+12000, 36 months,A2,OWN,Not Verified,Debt Management,0.0,0,26-35,0,40K-80K,<8%,10-15,60-80%
+9600, 36 months,A4,MORTGAGE,Source Verified,Debt Management,1.0,0,26-35,0,40K-80K,<8%,15-20,60-80%
+5525, 36 months,C5,RENT,Verified,Debt Management,0.0,0-1,10-16,0,18K-40K,15-21%,5-10,20-40%
+10000, 36 months,B2,OWN,Not Verified,Personal Expenses,0.0,1-2,35+,0,40K-80K,8-12%,20-25,<20%
+7200, 36 months,B3,RENT,Source Verified,Debt Management,0.0,1-2,0-10,0,40K-80K,8-12%,<5,<20%
+28000, 36 months,A3,MORTGAGE,Source Verified,Vehicle & Major Purchases,0.0,0,10-16,0,>120K,<8%,<5,20-40%
+6000, 36 months,B3,MORTGAGE,Not Verified,Vehicle & Major Purchases,1.0,1-2,16-20,0,40K-80K,8-12%,15-20,60-80%
+12000, 36 months,B3,MORTGAGE,Source Verified,Debt Management,0.0,0,10-16,0,40K-80K,8-12%,10-15,>100%
+20000, 36 months,B4,RENT,Verified,Debt Management,0.0,1-2,10-16,0,40K-80K,8-12%,10-15,80-100%
+7000, 36 months,C4,RENT,Source Verified,Debt Management,1.0,0,26-35,0,18K-40K,12-15%,20-25,40-60%
+16000, 60 months,C2,MORTGAGE,Not Verified,Personal Expenses,0.0,0,26-35,0,80K-120K,12-15%,15-20,80-100%
+14825, 60 months,D2,RENT,Source Verified,Debt Management,0.0,0,26-35,0,18K-40K,15-21%,30-35,40-60%
+14675, 36 months,B3,MORTGAGE,Verified,Debt Management,1.0,0,26-35,0,80K-120K,12-15%,5-10,40-60%
+20000, 36 months,B3,MORTGAGE,Verified,Debt Management,0.0,0,35+,0,40K-80K,12-15%,15-20,40-60%
+5000, 36 months,A3,MORTGAGE,Not Verified,Debt Management,0.0,0,20-26,0,40K-80K,<8%,20-25,40-60%
+18600, 60 months,A5,MORTGAGE,Verified,Debt Management,0.0,0-1,35+,0,>120K,8-12%,5-10,<20%
+12000, 36 months,A5,OWN,Not Verified,Business & Education,0.0,2+,16-20,0,40K-80K,8-12%,5-10,<20%
+9575, 36 months,F1,RENT,Source Verified,Home & Property,0.0,0,10-16,0,18K-40K,21-24%,15-20,40-60%
+9500, 36 months,C2,OWN,Not Verified,Debt Management,1.0,0-1,26-35,0,40K-80K,15-21%,<5,<20%
+13300, 60 months,F1,OWN,Verified,Debt Management,0.0,0-1,26-35,0,80K-120K,21-24%,15-20,40-60%
+21600, 36 months,C4,MORTGAGE,Verified,Debt Management,0.0,2+,26-35,0,40K-80K,15-21%,5-10,20-40%
+3600, 36 months,A1,OWN,Not Verified,Home & Property,0.0,0,10-16,1,18K-40K,<8%,15-20,<20%
+16700, 36 months,B5,RENT,Not Verified,Debt Management,0.0,0,35+,0,80K-120K,12-15%,25-30,80-100%
+20000, 36 months,B4,MORTGAGE,Not Verified,Debt Management,1.0,0-1,35+,0,>120K,8-12%,5-10,40-60%
+7500, 36 months,C1,MORTGAGE,Not Verified,Debt Management,0.0,0-1,10-16,0,40K-80K,12-15%,15-20,40-60%
+3000, 36 months,A2,OWN,Verified,Home & Property,0.0,0-1,26-35,1,<18K,<8%,<5,<20%
+12000, 60 months,B1,MORTGAGE,Verified,Home & Property,0.0,0-1,26-35,0,40K-80K,8-12%,20-25,<20%
+10000, 36 months,B2,MORTGAGE,Verified,Debt Management,0.0,0-1,35+,1,18K-40K,8-12%,10-15,40-60%
+18000, 60 months,B1,MORTGAGE,Source Verified,Debt Management,0.0,0-1,16-20,0,80K-120K,8-12%,5-10,20-40%
+21000, 60 months,C2,MORTGAGE,Source Verified,Debt Management,1.0,0,35+,0,40K-80K,12-15%,10-15,40-60%
+24000, 60 months,F3,MORTGAGE,Source Verified,Debt Management,0.0,0-1,26-35,0,80K-120K,>24%,10-15,80-100%
+15250, 36 months,D2,OWN,Not Verified,Debt Management,0.0,0,10-16,0,40K-80K,15-21%,10-15,80-100%
+10000, 36 months,A4,RENT,Not Verified,Debt Management,0.0,0-1,35+,0,40K-80K,8-12%,5-10,<20%
+35000, 36 months,B1,RENT,Verified,Vehicle & Major Purchases,0.0,2+,10-16,0,>120K,8-12%,5-10,<20%
+20000, 60 months,D4,RENT,Source Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,15-21%,15-20,20-40%
+19850, 36 months,D1,RENT,Not Verified,Debt Management,0.0,1-2,26-35,0,40K-80K,15-21%,15-20,40-60%
+5975, 36 months,D5,RENT,Verified,Debt Management,0.0,0,0-10,0,18K-40K,15-21%,10-15,60-80%
+10000, 36 months,B4,MORTGAGE,Not Verified,Debt Management,0.0,0,35+,0,40K-80K,12-15%,10-15,60-80%
+14000, 36 months,B4,MORTGAGE,Verified,Personal Expenses,0.0,0-1,35+,0,80K-120K,12-15%,20-25,60-80%
+12000, 36 months,B3,MORTGAGE,Not Verified,Vehicle & Major Purchases,0.0,0-1,16-20,0,40K-80K,12-15%,10-15,40-60%
+4500, 36 months,A5,RENT,Not Verified,Debt Management,1.0,0,20-26,0,<18K,8-12%,<5,<20%
+18500, 36 months,B2,OWN,Not Verified,Debt Management,0.0,0-1,16-20,0,40K-80K,8-12%,15-20,40-60%
+11100, 36 months,E4,RENT,Source Verified,Debt Management,0.0,0-1,0-10,0,18K-40K,15-21%,15-20,20-40%
+18500, 36 months,B1,MORTGAGE,Source Verified,Debt Management,0.0,1-2,35+,0,80K-120K,8-12%,25-30,20-40%
+8000, 36 months,B1,MORTGAGE,Not Verified,Debt Management,0.0,1-2,20-26,0,40K-80K,8-12%,5-10,20-40%
+10000, 36 months,C2,RENT,Verified,Debt Management,0.0,0,26-35,0,18K-40K,15-21%,30-35,60-80%
+25000, 60 months,B5,RENT,Verified,Debt Management,0.0,0,16-20,0,40K-80K,12-15%,5-10,40-60%
+3600, 36 months,C2,OWN,Source Verified,Personal Expenses,0.0,0,35+,0,80K-120K,12-15%,5-10,80-100%
+12000, 36 months,E4,MORTGAGE,Not Verified,Debt Management,0.0,2+,16-20,0,40K-80K,15-21%,20-25,80-100%
+12000, 36 months,C3,MORTGAGE,Not Verified,Debt Management,0.0,0,16-20,0,40K-80K,12-15%,10-15,80-100%
+32350, 36 months,D1,MORTGAGE,Verified,Debt Management,0.0,0-1,35+,0,40K-80K,15-21%,20-25,60-80%
+4000, 36 months,A2,MORTGAGE,Not Verified,Debt Management,0.0,2+,26-35,0,40K-80K,<8%,<5,<20%
+12000, 60 months,B2,OWN,Verified,Debt Management,1.0,0,26-35,0,40K-80K,8-12%,>35,40-60%
+10500, 36 months,C3,MORTGAGE,Verified,Debt Management,0.0,2+,20-26,0,40K-80K,12-15%,20-25,60-80%
+25000, 36 months,C3,MORTGAGE,Verified,Debt Management,1.0,0-1,26-35,0,80K-120K,12-15%,5-10,40-60%
+2700, 36 months,A5,MORTGAGE,Source Verified,Debt Management,0.0,2+,10-16,0,40K-80K,8-12%,25-30,40-60%
+13700, 36 months,B4,MORTGAGE,Source Verified,Home & Property,0.0,1-2,26-35,0,40K-80K,12-15%,20-25,40-60%
+5500, 36 months,B4,MORTGAGE,Not Verified,Home & Property,0.0,0-1,26-35,0,80K-120K,12-15%,10-15,20-40%
+10000, 36 months,C3,RENT,Not Verified,Debt Management,0.0,0-1,10-16,0,40K-80K,12-15%,5-10,20-40%
+10000, 36 months,B4,MORTGAGE,Not Verified,Debt Management,1.0,0,35+,0,40K-80K,12-15%,5-10,60-80%
+21850, 36 months,B3,MORTGAGE,Verified,Debt Management,1.0,0,20-26,0,40K-80K,12-15%,30-35,60-80%
+10000, 36 months,B3,MORTGAGE,Source Verified,Personal Expenses,0.0,0,26-35,0,>120K,8-12%,15-20,40-60%
+6350, 36 months,A2,RENT,Source Verified,Vehicle & Major Purchases,0.0,0-1,10-16,0,18K-40K,<8%,5-10,20-40%
+10000, 36 months,B2,RENT,Source Verified,Debt Management,0.0,0-1,10-16,0,40K-80K,8-12%,10-15,40-60%
+5000, 36 months,A5,RENT,Not Verified,Debt Management,0.0,0,16-20,0,18K-40K,8-12%,<5,40-60%
+19125, 36 months,C1,RENT,Verified,Business & Education,1.0,0,0-10,0,40K-80K,12-15%,5-10,<20%
+2100, 36 months,B4,MORTGAGE,Not Verified,Debt Management,0.0,0-1,35+,0,80K-120K,8-12%,25-30,60-80%
+13000, 36 months,A1,MORTGAGE,Not Verified,Debt Management,0.0,0,26-35,0,40K-80K,<8%,10-15,40-60%
+18000, 60 months,B5,OWN,Not Verified,Debt Management,0.0,0,16-20,0,40K-80K,12-15%,10-15,60-80%
+17000, 36 months,A5,OWN,Verified,Debt Management,0.0,0,16-20,0,40K-80K,8-12%,5-10,60-80%
+6000, 36 months,C3,RENT,Verified,Vehicle & Major Purchases,1.0,2+,10-16,0,40K-80K,12-15%,5-10,<20%
+16000, 60 months,C5,RENT,Verified,Debt Management,0.0,0,10-16,0,18K-40K,15-21%,30-35,60-80%
+20000, 36 months,B3,MORTGAGE,Verified,Debt Management,0.0,0,26-35,0,80K-120K,8-12%,20-25,60-80%
+3000, 36 months,A4,RENT,Not Verified,Debt Management,0.0,0,10-16,0,40K-80K,<8%,20-25,<20%
+5500, 36 months,B3,MORTGAGE,Verified,Debt Management,0.0,0,20-26,0,18K-40K,12-15%,20-25,80-100%
+12600, 36 months,C2,RENT,Source Verified,Debt Management,0.0,2+,26-35,0,40K-80K,12-15%,20-25,60-80%
+9000, 36 months,B1,OWN,Not Verified,Debt Management,0.0,2+,20-26,0,40K-80K,8-12%,20-25,60-80%
+10000, 60 months,D2,MORTGAGE,Verified,Debt Management,0.0,1-2,10-16,0,40K-80K,15-21%,15-20,60-80%
+35000, 36 months,B3,MORTGAGE,Verified,Debt Management,0.0,0,20-26,0,80K-120K,8-12%,20-25,60-80%
+16000, 60 months,D1,OWN,Source Verified,Debt Management,0.0,2+,35+,0,80K-120K,15-21%,10-15,20-40%
+18000, 36 months,B2,RENT,Verified,Debt Management,0.0,0-1,16-20,0,40K-80K,8-12%,5-10,40-60%
+2750, 36 months,F5,RENT,Source Verified,Home & Property,0.0,0-1,0-10,0,40K-80K,>24%,<5,60-80%
+31300, 60 months,F3,RENT,Verified,Debt Management,1.0,0,10-16,0,40K-80K,>24%,10-15,>100%
+15000, 36 months,B2,RENT,Verified,Debt Management,0.0,0,20-26,0,>120K,8-12%,<5,40-60%
+32225, 36 months,D3,MORTGAGE,Verified,Debt Management,1.0,0-1,35+,0,80K-120K,15-21%,25-30,60-80%
+10000, 36 months,C4,RENT,Not Verified,Home & Property,0.0,1-2,0-10,0,80K-120K,15-21%,<5,40-60%
+5700, 36 months,A4,RENT,Not Verified,Personal Expenses,0.0,0,20-26,0,40K-80K,<8%,10-15,20-40%
+22675, 36 months,C2,MORTGAGE,Source Verified,Business & Education,0.0,0,26-35,0,80K-120K,15-21%,10-15,60-80%
+12000, 36 months,A5,OWN,Source Verified,Debt Management,0.0,0,10-16,0,18K-40K,8-12%,10-15,40-60%
+6000, 36 months,C2,RENT,Verified,Vehicle & Major Purchases,0.0,0-1,0-10,0,18K-40K,12-15%,5-10,40-60%
+12000, 36 months,A3,MORTGAGE,Not Verified,Debt Management,0.0,0-1,35+,0,40K-80K,<8%,25-30,20-40%
+10800, 60 months,B4,RENT,Source Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,12-15%,25-30,20-40%
+11500, 60 months,E3,MORTGAGE,Source Verified,Debt Management,0.0,0,0-10,0,18K-40K,15-21%,15-20,80-100%
+8000, 36 months,B3,RENT,Not Verified,Debt Management,0.0,0,16-20,0,18K-40K,12-15%,10-15,60-80%
+11500, 36 months,B2,RENT,Not Verified,Debt Management,0.0,0-1,20-26,0,18K-40K,8-12%,15-20,40-60%
+10000, 60 months,B4,RENT,Source Verified,Business & Education,0.0,1-2,20-26,0,>120K,8-12%,5-10,40-60%
+9000, 36 months,D3,RENT,Verified,Debt Management,0.0,0-1,10-16,0,40K-80K,15-21%,15-20,60-80%
+14000, 36 months,A1,MORTGAGE,Not Verified,Debt Management,0.0,0-1,26-35,0,40K-80K,<8%,5-10,<20%
+5000, 36 months,A4,RENT,Not Verified,Debt Management,0.0,0,26-35,0,40K-80K,<8%,<5,20-40%
+2500, 36 months,F1,RENT,Not Verified,Personal Expenses,0.0,2+,0-10,0,18K-40K,21-24%,10-15,80-100%
+16575, 36 months,C4,RENT,Source Verified,Debt Management,0.0,0,0-10,0,40K-80K,15-21%,20-25,80-100%
+2000, 36 months,B1,RENT,Verified,Home & Property,0.0,0,20-26,0,18K-40K,8-12%,30-35,40-60%
+16000, 36 months,C1,RENT,Source Verified,Debt Management,1.0,0-1,35+,0,80K-120K,12-15%,5-10,40-60%
+1000, 36 months,F1,RENT,Source Verified,Personal Expenses,0.0,0,10-16,1,40K-80K,21-24%,15-20,60-80%
+12000, 36 months,D4,MORTGAGE,Not Verified,Debt Management,0.0,1-2,35+,0,40K-80K,12-15%,10-15,40-60%
+2400, 36 months,C4,RENT,Source Verified,Debt Management,0.0,0-1,20-26,0,<18K,12-15%,<5,40-60%
+17050, 36 months,C1,MORTGAGE,Not Verified,Debt Management,0.0,0,10-16,0,18K-40K,12-15%,15-20,60-80%
+14300, 36 months,B1,MORTGAGE,Not Verified,Debt Management,0.0,0,26-35,0,40K-80K,8-12%,15-20,40-60%
+8000, 36 months,A4,RENT,Source Verified,Home & Property,0.0,0,10-16,0,18K-40K,<8%,5-10,<20%
+15000, 36 months,D3,RENT,Source Verified,Debt Management,1.0,1-2,35+,0,>120K,15-21%,10-15,60-80%
+8000, 36 months,D3,OWN,Not Verified,Debt Management,0.0,0,20-26,0,40K-80K,15-21%,10-15,80-100%
+7500, 36 months,C2,MORTGAGE,Not Verified,Debt Management,0.0,1-2,20-26,0,80K-120K,12-15%,5-10,80-100%
+30800, 36 months,A4,MORTGAGE,Source Verified,Debt Management,0.0,0,35+,0,>120K,<8%,15-20,80-100%
+9700, 36 months,B2,MORTGAGE,Source Verified,Debt Management,0.0,0,16-20,0,40K-80K,8-12%,15-20,80-100%
+30000, 60 months,B3,MORTGAGE,Source Verified,Debt Management,0.0,0,10-16,0,>120K,8-12%,<5,<20%
+20050, 36 months,A3,RENT,Verified,Debt Management,0.0,0-1,0-10,0,40K-80K,<8%,15-20,<20%
+15000, 36 months,C5,RENT,Source Verified,Debt Management,0.0,0,26-35,0,40K-80K,15-21%,15-20,60-80%
+7500, 36 months,A2,OWN,Not Verified,Vehicle & Major Purchases,0.0,1-2,26-35,0,40K-80K,<8%,20-25,<20%
+12000, 36 months,C1,RENT,Not Verified,Debt Management,0.0,1-2,26-35,0,40K-80K,12-15%,20-25,60-80%
+3600, 36 months,B4,RENT,Verified,Home & Property,0.0,0-1,35+,0,80K-120K,12-15%,10-15,<20%
+10000, 36 months,C1,MORTGAGE,Source Verified,Debt Management,0.0,0,20-26,0,40K-80K,12-15%,10-15,20-40%
+8400, 36 months,B3,RENT,Not Verified,Debt Management,1.0,0,20-26,0,40K-80K,12-15%,25-30,60-80%
+7000, 36 months,C4,RENT,Source Verified,Debt Management,0.0,0,10-16,0,40K-80K,12-15%,5-10,80-100%
+8400, 36 months,C3,RENT,Not Verified,Debt Management,0.0,0,35+,0,40K-80K,15-21%,10-15,80-100%
+16000, 36 months,C2,MORTGAGE,Source Verified,Debt Management,0.0,1-2,10-16,0,40K-80K,12-15%,10-15,80-100%
+2875, 36 months,D1,RENT,Verified,Debt Management,1.0,0-1,16-20,0,18K-40K,15-21%,30-35,40-60%
+13200, 60 months,C2,MORTGAGE,Verified,Debt Management,0.0,0,20-26,0,40K-80K,12-15%,10-15,60-80%
+8400, 36 months,C3,MORTGAGE,Verified,Debt Management,0.0,0,20-26,1,40K-80K,12-15%,20-25,80-100%
+8925, 36 months,F5,RENT,Not Verified,Personal Expenses,1.0,2+,16-20,0,18K-40K,>24%,<5,<20%
+11000, 36 months,B3,RENT,Verified,Personal Expenses,0.0,0,0-10,0,18K-40K,12-15%,<5,40-60%
+25000, 36 months,E3,MORTGAGE,Source Verified,Business & Education,1.0,1-2,35+,0,80K-120K,15-21%,10-15,40-60%
+4400, 36 months,F4,RENT,Not Verified,Debt Management,0.0,0-1,0-10,0,40K-80K,>24%,15-20,40-60%
+1000, 36 months,E4,MORTGAGE,Not Verified,Debt Management,0.0,1-2,26-35,0,18K-40K,15-21%,25-30,80-100%
+27000, 36 months,C5,RENT,Source Verified,Debt Management,0.0,0,10-16,0,40K-80K,12-15%,15-20,40-60%
+7750, 36 months,D1,RENT,Verified,Debt Management,0.0,0-1,10-16,0,18K-40K,15-21%,25-30,60-80%
+11700, 36 months,B2,MORTGAGE,Verified,Debt Management,0.0,0,20-26,0,18K-40K,8-12%,30-35,60-80%
+18000, 36 months,B1,MORTGAGE,Not Verified,Debt Management,0.0,0,26-35,0,40K-80K,8-12%,15-20,80-100%
+5000, 36 months,A2,MORTGAGE,Not Verified,Debt Management,0.0,0,20-26,0,80K-120K,<8%,10-15,<20%
+8400, 36 months,C3,RENT,Verified,Home & Property,0.0,2+,0-10,0,40K-80K,12-15%,5-10,20-40%
+8000, 36 months,C2,MORTGAGE,Verified,Home & Property,0.0,2+,35+,0,>120K,12-15%,15-20,80-100%
+35000, 60 months,D1,MORTGAGE,Verified,Debt Management,0.0,2+,26-35,0,80K-120K,15-21%,20-25,60-80%
+23050, 60 months,E1,MORTGAGE,Source Verified,Debt Management,0.0,0-1,26-35,0,40K-80K,15-21%,10-15,60-80%
+10000, 36 months,A1,MORTGAGE,Source Verified,Vehicle & Major Purchases,0.0,0,16-20,0,40K-80K,<8%,15-20,<20%
+7000, 36 months,B5,MORTGAGE,Not Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,12-15%,<5,40-60%
+6000, 36 months,C1,RENT,Not Verified,Debt Management,1.0,0-1,10-16,0,40K-80K,12-15%,10-15,60-80%
+15000, 36 months,B3,MORTGAGE,Verified,Debt Management,0.0,1-2,26-35,0,18K-40K,8-12%,25-30,40-60%
+12000, 36 months,C5,OWN,Verified,Debt Management,0.0,0-1,35+,1,80K-120K,12-15%,20-25,20-40%
+15000, 60 months,D1,MORTGAGE,Source Verified,Debt Management,1.0,2+,26-35,0,40K-80K,15-21%,15-20,40-60%
+4400, 36 months,A2,MORTGAGE,Not Verified,Vehicle & Major Purchases,0.0,0-1,10-16,0,40K-80K,<8%,10-15,20-40%
+10000, 36 months,B1,OWN,Not Verified,Debt Management,0.0,0-1,35+,0,40K-80K,8-12%,10-15,40-60%
+30000, 36 months,A3,RENT,Verified,Debt Management,0.0,0,35+,0,80K-120K,<8%,25-30,40-60%
+30000, 60 months,D4,MORTGAGE,Verified,Debt Management,0.0,0-1,26-35,0,>120K,15-21%,<5,40-60%
+8575, 36 months,C3,RENT,Not Verified,Debt Management,0.0,0,16-20,0,18K-40K,12-15%,15-20,40-60%
+9600, 36 months,C1,MORTGAGE,Verified,Debt Management,1.0,0,20-26,0,40K-80K,12-15%,15-20,60-80%
+10000, 36 months,A1,MORTGAGE,Not Verified,Vehicle & Major Purchases,0.0,0,35+,0,80K-120K,<8%,<5,<20%
+28000, 36 months,B1,MORTGAGE,Source Verified,Debt Management,0.0,0,26-35,0,80K-120K,8-12%,20-25,80-100%
+16750, 60 months,E1,OWN,Source Verified,Debt Management,0.0,0-1,35+,0,40K-80K,15-21%,15-20,20-40%
+6250, 36 months,C1,MORTGAGE,Not Verified,Debt Management,0.0,1-2,16-20,0,18K-40K,12-15%,15-20,40-60%
+5850, 36 months,B5,MORTGAGE,Source Verified,Debt Management,0.0,1-2,20-26,0,40K-80K,12-15%,15-20,40-60%
+12000, 60 months,E1,OWN,Verified,Debt Management,0.0,0-1,16-20,0,18K-40K,15-21%,20-25,60-80%
+21150, 36 months,D5,RENT,Verified,Debt Management,0.0,1-2,20-26,0,40K-80K,15-21%,15-20,60-80%
+12000, 36 months,B1,RENT,Not Verified,Debt Management,1.0,0,16-20,0,40K-80K,8-12%,10-15,60-80%
+4125, 36 months,C5,MORTGAGE,Verified,Debt Management,1.0,1-2,35+,1,<18K,15-21%,20-25,40-60%
+15000, 36 months,B4,MORTGAGE,Source Verified,Home & Property,0.0,0,16-20,0,80K-120K,12-15%,5-10,40-60%
+3000, 36 months,B3,OWN,Not Verified,Debt Management,0.0,2+,26-35,0,40K-80K,8-12%,5-10,<20%
+12250, 36 months,C4,RENT,Verified,Debt Management,0.0,1-2,0-10,1,40K-80K,15-21%,5-10,80-100%
+6000, 36 months,B1,MORTGAGE,Not Verified,Debt Management,0.0,0,20-26,0,80K-120K,8-12%,10-15,40-60%
+16750, 60 months,E3,MORTGAGE,Source Verified,Debt Management,0.0,0,20-26,0,40K-80K,15-21%,30-35,60-80%
+11000, 36 months,B5,RENT,Not Verified,Debt Management,0.0,0-1,0-10,0,40K-80K,8-12%,15-20,60-80%
+3500, 36 months,C4,RENT,Not Verified,Debt Management,0.0,0-1,26-35,0,>120K,15-21%,10-15,40-60%
+10150, 36 months,C4,MORTGAGE,Not Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,15-21%,25-30,40-60%
+15000, 36 months,B1,RENT,Verified,Debt Management,0.0,0,20-26,0,40K-80K,8-12%,20-25,40-60%
+21000, 60 months,C4,MORTGAGE,Source Verified,Debt Management,0.0,0-1,35+,0,80K-120K,15-21%,5-10,60-80%
+25000, 60 months,F5,MORTGAGE,Source Verified,Debt Management,1.0,0-1,26-35,0,80K-120K,>24%,10-15,20-40%
+13000, 36 months,C4,RENT,Source Verified,Debt Management,0.0,0-1,10-16,0,40K-80K,15-21%,10-15,80-100%
+900, 36 months,E4,RENT,Not Verified,Personal Expenses,0.0,2+,0-10,0,18K-40K,12-15%,<5,<20%
+9000, 36 months,D4,MORTGAGE,Not Verified,Personal Expenses,0.0,0,10-16,0,80K-120K,15-21%,10-15,80-100%
+16000, 36 months,B5,MORTGAGE,Verified,Debt Management,1.0,0-1,35+,0,40K-80K,12-15%,15-20,20-40%
+13000, 36 months,C3,MORTGAGE,Verified,Debt Management,0.0,0,20-26,0,40K-80K,15-21%,20-25,>100%
+9500, 36 months,C1,MORTGAGE,Not Verified,Debt Management,1.0,0,10-16,0,40K-80K,8-12%,10-15,60-80%
+8000, 36 months,B1,RENT,Not Verified,Debt Management,0.0,0,16-20,0,18K-40K,8-12%,20-25,20-40%
+7250, 36 months,F1,MORTGAGE,Verified,Debt Management,1.0,0-1,20-26,0,18K-40K,21-24%,>35,40-60%
+24250, 60 months,C1,RENT,Verified,Debt Management,0.0,0,16-20,0,80K-120K,12-15%,20-25,60-80%
+35000, 36 months,D2,RENT,Verified,Debt Management,0.0,1-2,20-26,0,80K-120K,15-21%,10-15,60-80%
+25000, 36 months,G1,MORTGAGE,Verified,Debt Management,0.0,2+,20-26,0,80K-120K,15-21%,20-25,80-100%
+10000, 36 months,C1,MORTGAGE,Not Verified,Debt Management,0.0,0,10-16,0,18K-40K,12-15%,<5,20-40%
+35000, 36 months,A4,MORTGAGE,Verified,Personal Expenses,0.0,0,10-16,1,80K-120K,<8%,10-15,<20%
+27000, 36 months,B4,RENT,Verified,Debt Management,0.0,0-1,10-16,0,40K-80K,12-15%,20-25,40-60%
+10000, 36 months,C1,RENT,Not Verified,Debt Management,0.0,0,16-20,0,18K-40K,12-15%,5-10,80-100%
+10000, 36 months,A4,MORTGAGE,Source Verified,Vehicle & Major Purchases,0.0,2+,35+,0,40K-80K,<8%,15-20,20-40%
+5000, 36 months,D4,MORTGAGE,Verified,Personal Expenses,0.0,1-2,10-16,0,18K-40K,15-21%,5-10,20-40%
+18000, 36 months,D4,MORTGAGE,Source Verified,Home & Property,0.0,0,10-16,0,40K-80K,15-21%,<5,60-80%
+9600, 36 months,A3,MORTGAGE,Not Verified,Home & Property,0.0,1-2,26-35,0,40K-80K,<8%,5-10,40-60%
+3600, 36 months,B3,RENT,Source Verified,Vehicle & Major Purchases,1.0,0-1,20-26,0,40K-80K,8-12%,25-30,<20%
+3500, 36 months,B2,RENT,Not Verified,Debt Management,0.0,0-1,10-16,0,40K-80K,8-12%,20-25,60-80%
+10000, 36 months,F1,MORTGAGE,Source Verified,Debt Management,0.0,0,35+,0,40K-80K,21-24%,25-30,60-80%
+35000, 36 months,C3,MORTGAGE,Verified,Debt Management,0.0,0,35+,0,80K-120K,15-21%,25-30,80-100%
+20000, 36 months,C2,RENT,Not Verified,Debt Management,0.0,0,35+,0,40K-80K,12-15%,15-20,60-80%
+20000, 36 months,A1,RENT,Source Verified,Debt Management,0.0,0,26-35,0,>120K,<8%,5-10,<20%
+7200, 36 months,A4,RENT,Source Verified,Personal Expenses,0.0,0,20-26,0,40K-80K,<8%,15-20,20-40%
+2200, 36 months,C2,OWN,Verified,Debt Management,0.0,0,0-10,0,40K-80K,12-15%,<5,80-100%
+10000, 36 months,D2,RENT,Verified,Debt Management,0.0,0,16-20,0,40K-80K,15-21%,15-20,40-60%
+4000, 36 months,C1,RENT,Not Verified,Debt Management,1.0,0,16-20,0,40K-80K,12-15%,<5,60-80%
+35000, 60 months,D5,MORTGAGE,Verified,Debt Management,1.0,0,26-35,0,80K-120K,15-21%,30-35,80-100%
+12350, 36 months,G1,RENT,Verified,Home & Property,0.0,0-1,16-20,0,40K-80K,>24%,15-20,60-80%
+6000, 36 months,A5,MORTGAGE,Not Verified,Home & Property,0.0,0,10-16,0,40K-80K,8-12%,15-20,20-40%
+3000, 36 months,C4,OWN,Not Verified,Debt Management,0.0,0-1,26-35,0,40K-80K,12-15%,15-20,40-60%
+5600, 36 months,C2,RENT,Not Verified,Debt Management,0.0,1-2,10-16,0,18K-40K,12-15%,20-25,40-60%
+6000, 36 months,C2,MORTGAGE,Not Verified,Debt Management,0.0,0,20-26,0,80K-120K,12-15%,15-20,80-100%
+3300, 36 months,B3,MORTGAGE,Not Verified,Personal Expenses,0.0,0,0-10,0,40K-80K,8-12%,5-10,<20%
+12000, 36 months,C1,MORTGAGE,Verified,Debt Management,1.0,1-2,35+,0,40K-80K,12-15%,15-20,60-80%
+10625, 36 months,C5,OWN,Verified,Debt Management,0.0,0-1,26-35,0,18K-40K,15-21%,25-30,60-80%
+18000, 60 months,E1,MORTGAGE,Verified,Debt Management,1.0,0-1,26-35,0,40K-80K,15-21%,30-35,60-80%
+7000, 36 months,A2,RENT,Source Verified,Debt Management,0.0,0,10-16,0,40K-80K,<8%,10-15,20-40%
+5000, 36 months,A5,RENT,Not Verified,Debt Management,0.0,0,10-16,0,18K-40K,8-12%,25-30,<20%
+8875, 36 months,B4,OWN,Not Verified,Debt Management,0.0,0,10-16,0,18K-40K,12-15%,25-30,60-80%
+17050, 60 months,C4,RENT,Verified,Debt Management,0.0,0-1,26-35,1,18K-40K,15-21%,15-20,<20%
+25000, 60 months,B4,MORTGAGE,Verified,Debt Management,0.0,0,35+,0,40K-80K,12-15%,15-20,40-60%
+20000, 36 months,A5,MORTGAGE,Verified,Debt Management,0.0,0-1,35+,1,40K-80K,8-12%,20-25,20-40%
+11500, 36 months,B2,OWN,Verified,Business & Education,0.0,0-1,0-10,0,18K-40K,8-12%,25-30,20-40%
+6000, 36 months,D5,RENT,Not Verified,Debt Management,1.0,0,20-26,0,40K-80K,15-21%,5-10,<20%
+12000, 36 months,C4,RENT,Source Verified,Debt Management,1.0,0-1,35+,0,80K-120K,12-15%,15-20,80-100%
+15000, 36 months,C1,MORTGAGE,Verified,Debt Management,0.0,0-1,35+,0,80K-120K,12-15%,10-15,60-80%
+7200, 36 months,B5,RENT,Verified,Debt Management,0.0,0,10-16,0,18K-40K,12-15%,25-30,60-80%
+8000, 36 months,A2,MORTGAGE,Source Verified,Debt Management,0.0,0,16-20,0,80K-120K,<8%,10-15,<20%
+3625, 36 months,C1,MORTGAGE,Verified,Debt Management,0.0,0,26-35,1,<18K,12-15%,25-30,80-100%
+6000, 36 months,B2,RENT,Not Verified,Debt Management,0.0,0,10-16,0,40K-80K,8-12%,5-10,20-40%
+8250, 36 months,B3,MORTGAGE,Verified,Debt Management,0.0,2+,26-35,1,40K-80K,12-15%,30-35,20-40%
+7900, 36 months,D2,RENT,Not Verified,Debt Management,1.0,1-2,10-16,0,18K-40K,15-21%,10-15,20-40%
+16000, 36 months,C4,RENT,Not Verified,Debt Management,0.0,1-2,10-16,0,18K-40K,15-21%,10-15,80-100%
+10800, 36 months,B1,OWN,Verified,Debt Management,0.0,0,16-20,0,18K-40K,8-12%,20-25,40-60%
+17000, 36 months,A4,RENT,Verified,Debt Management,0.0,0,35+,0,80K-120K,8-12%,15-20,20-40%
+1600, 36 months,B1,RENT,Not Verified,Home & Property,0.0,0-1,0-10,0,<18K,8-12%,<5,60-80%
+4000, 36 months,B2,RENT,Source Verified,Debt Management,0.0,0,0-10,0,80K-120K,8-12%,5-10,40-60%
+9975, 36 months,E3,MORTGAGE,Source Verified,Home & Property,0.0,2+,26-35,0,80K-120K,15-21%,<5,<20%
+7200, 36 months,B5,RENT,Not Verified,Debt Management,0.0,0,20-26,0,40K-80K,12-15%,10-15,40-60%
+10000, 36 months,B2,RENT,Source Verified,Personal Expenses,0.0,0,0-10,0,40K-80K,8-12%,20-25,40-60%
+12500, 36 months,A1,RENT,Not Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,<8%,15-20,<20%
+20000, 36 months,B5,MORTGAGE,Source Verified,Debt Management,0.0,0-1,26-35,0,80K-120K,8-12%,15-20,60-80%
+10000, 36 months,D2,RENT,Verified,Debt Management,0.0,0-1,0-10,0,18K-40K,15-21%,10-15,80-100%
+8000, 36 months,C1,RENT,Source Verified,Debt Management,0.0,0,26-35,0,18K-40K,12-15%,15-20,40-60%
+10000, 36 months,B3,MORTGAGE,Verified,Debt Management,1.0,0-1,35+,0,80K-120K,8-12%,20-25,80-100%
+8725, 36 months,A4,OWN,Verified,Home & Property,0.0,0-1,26-35,0,18K-40K,<8%,<5,<20%
+14400, 36 months,B1,MORTGAGE,Not Verified,Debt Management,0.0,1-2,16-20,0,40K-80K,8-12%,10-15,60-80%
+7100, 36 months,A4,RENT,Verified,Vehicle & Major Purchases,0.0,0-1,0-10,1,<18K,<8%,5-10,<20%
+14700, 36 months,A3,MORTGAGE,Verified,Debt Management,0.0,2+,20-26,1,40K-80K,<8%,15-20,<20%
+8000, 36 months,C1,RENT,Not Verified,Debt Management,0.0,0,26-35,0,80K-120K,12-15%,15-20,60-80%
+13625, 36 months,B4,MORTGAGE,Source Verified,Debt Management,0.0,0-1,20-26,0,40K-80K,12-15%,15-20,40-60%
+2000, 36 months,A5,MORTGAGE,Not Verified,Personal Expenses,0.0,0,0-10,0,<18K,8-12%,20-25,<20%
+9600, 36 months,D1,MORTGAGE,Verified,Debt Management,1.0,0-1,35+,0,40K-80K,15-21%,20-25,<20%
+5000, 60 months,A5,MORTGAGE,Verified,Vehicle & Major Purchases,0.0,2+,16-20,0,80K-120K,<8%,<5,<20%
+7875, 36 months,D1,RENT,Verified,Debt Management,0.0,0-1,20-26,1,<18K,15-21%,20-25,40-60%
+22400, 36 months,C2,MORTGAGE,Not Verified,Debt Management,1.0,0-1,16-20,0,80K-120K,12-15%,15-20,80-100%
+4000, 36 months,D3,MORTGAGE,Source Verified,Home & Property,0.0,0-1,16-20,0,40K-80K,15-21%,15-20,80-100%
+7800, 36 months,B3,RENT,Not Verified,Debt Management,0.0,0-1,26-35,0,40K-80K,12-15%,15-20,<20%
+8400, 36 months,A4,RENT,Not Verified,Vehicle & Major Purchases,0.0,0,10-16,0,>120K,8-12%,<5,<20%
+10000, 36 months,B2,MORTGAGE,Verified,Debt Management,1.0,1-2,35+,0,40K-80K,8-12%,25-30,<20%
+20000, 36 months,C5,MORTGAGE,Verified,Debt Management,0.0,2+,20-26,0,80K-120K,15-21%,5-10,40-60%
+18000, 36 months,B5,MORTGAGE,Not Verified,Debt Management,1.0,0,26-35,0,40K-80K,12-15%,20-25,20-40%
+7200, 36 months,C4,RENT,Source Verified,Vehicle & Major Purchases,0.0,0,26-35,0,40K-80K,15-21%,30-35,40-60%
+19800, 60 months,C5,MORTGAGE,Verified,Debt Management,0.0,0,10-16,0,40K-80K,15-21%,15-20,80-100%
+15000, 60 months,C5,MORTGAGE,Source Verified,Debt Management,0.0,0-1,16-20,0,40K-80K,15-21%,10-15,40-60%
+18000, 36 months,B4,MORTGAGE,Not Verified,Debt Management,1.0,0,26-35,0,40K-80K,12-15%,15-20,20-40%
+7000, 36 months,B5,RENT,Verified,Debt Management,0.0,0,10-16,0,40K-80K,8-12%,15-20,20-40%
+10000, 36 months,C5,MORTGAGE,Not Verified,Debt Management,1.0,2+,26-35,0,40K-80K,12-15%,15-20,20-40%
+20800, 60 months,D4,RENT,Verified,Debt Management,0.0,0,16-20,0,40K-80K,15-21%,30-35,80-100%
+24000, 36 months,A3,MORTGAGE,Verified,Debt Management,0.0,0,20-26,0,80K-120K,<8%,20-25,60-80%
+3600, 36 months,E4,MORTGAGE,Verified,Debt Management,0.0,0,0-10,0,40K-80K,21-24%,<5,40-60%
+6000, 36 months,B2,RENT,Verified,Debt Management,0.0,0,10-16,0,18K-40K,8-12%,25-30,60-80%
+15000, 36 months,A4,RENT,Verified,Debt Management,0.0,0,16-20,0,>120K,<8%,5-10,40-60%
+6000, 36 months,A2,MORTGAGE,Not Verified,Debt Management,0.0,1-2,26-35,0,40K-80K,<8%,15-20,20-40%
+8000, 36 months,D4,RENT,Verified,Personal Expenses,0.0,1-2,35+,0,40K-80K,15-21%,15-20,20-40%
+12000, 36 months,B2,MORTGAGE,Verified,Debt Management,0.0,0,26-35,0,40K-80K,8-12%,20-25,60-80%
+1075, 36 months,A2,RENT,Not Verified,Vehicle & Major Purchases,0.0,0-1,10-16,0,18K-40K,<8%,5-10,20-40%
+7525, 36 months,A3,MORTGAGE,Source Verified,Debt Management,0.0,0-1,26-35,0,40K-80K,<8%,10-15,<20%
+12500, 36 months,B3,RENT,Not Verified,Debt Management,0.0,0,16-20,0,40K-80K,12-15%,<5,<20%
+14000, 60 months,B3,RENT,Verified,Debt Management,0.0,0,10-16,0,18K-40K,8-12%,15-20,20-40%
+20000, 36 months,A4,RENT,Source Verified,Debt Management,0.0,0,20-26,0,40K-80K,<8%,10-15,40-60%
+14300, 36 months,D2,RENT,Verified,Debt Management,0.0,0-1,35+,0,18K-40K,15-21%,25-30,60-80%
+18000, 36 months,D5,MORTGAGE,Verified,Debt Management,0.0,1-2,10-16,0,40K-80K,15-21%,15-20,80-100%
+8000, 36 months,C1,MORTGAGE,Not Verified,Debt Management,0.0,0,26-35,0,80K-120K,12-15%,20-25,60-80%
+20050, 60 months,F1,RENT,Source Verified,Debt Management,0.0,0,20-26,0,40K-80K,21-24%,25-30,80-100%
+3200, 60 months,C4,RENT,Source Verified,Debt Management,0.0,0-1,26-35,0,80K-120K,15-21%,15-20,20-40%
+10000, 60 months,D2,MORTGAGE,Source Verified,Personal Expenses,1.0,0,26-35,0,18K-40K,15-21%,10-15,20-40%
+9000, 36 months,D2,MORTGAGE,Verified,Business & Education,0.0,1-2,16-20,0,>120K,15-21%,<5,60-80%
+12250, 36 months,C4,OWN,Not Verified,Debt Management,0.0,2+,35+,0,18K-40K,15-21%,20-25,40-60%
+17000, 36 months,B3,MORTGAGE,Verified,Debt Management,0.0,0,26-35,0,40K-80K,12-15%,15-20,20-40%
+12125, 36 months,B5,RENT,Verified,Debt Management,0.0,0,26-35,0,40K-80K,12-15%,5-10,80-100%
