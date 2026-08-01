@@ -6,14 +6,16 @@ import shap
 import lifelines
 import seaborn as sns
 import numpy as np 
+import os
+import gdown
 
 # import
 # Preprocessing pipeline
-preprocessing = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\phase3_modelling\Ct_for_preprocessing')
+preprocessing = joblib.load(r'models\Ct_for_preprocessing.pkl')
 
 #Models
-lr = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\phase3_modelling\Final_lr_model')
-gb = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\phase3_modelling\Final_gb_model')
+lr = joblib.load(r'models\Final_lr_model.pkl')
+gb = joblib.load(r'models\Final_gb_model.pkl')
 
 st.title("🏦 Credit Risk Analytics Dashboard")
 st.markdown(
@@ -167,7 +169,7 @@ with col2:
 
 
 input = pd.DataFrame(preprocessing.transform(lr_model_input), columns=preprocessing.get_feature_names_out())
-X_train = pd.read_csv(r'C:\Users\Dev\OneDrive\Desktop\data\Streamlite\masker_data_for_lr_pd.csv')
+X_train = pd.read_csv(r'masker_data_for_lr_pd.csv')
 X_train = pd.DataFrame( preprocessing.transform(X_train), columns = preprocessing.get_feature_names_out())
 masker = shap.maskers.Independent(X_train ,max_samples=1000)
 shap_lr = shap.LinearExplainer(lr, masker)(input)
@@ -213,11 +215,19 @@ where **f(x)** is the final SHAP output obtained by summing the base value and a
 # Survival Analysis (Cox PH)
 # ===========================
 # models
-cox_model = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\Survival Analysis\cox_model')
-xgb_model = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\Survival Analysis\xgb_model')
+os.makedirs("models", exist_ok=True)
+if not os.path.exists("models/cox_model.pkl"):
+    gdown.download(
+        id="1HLCFDl17JL69qyzMWPaUfVG4vwFaM-h8",
+        output="models/cox_model.pkl",
+        quiet=False
+    )
+
+cox_model = joblib.load("models/cox_model.pkl")
+xgb_model = joblib.load(r'models\xgb_model.pkl')
 # CT
-cox_model_ct = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\Survival Analysis\CT_cox_model')
-xgb_model_ct = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\Survival Analysis\CT_xgb_model')
+cox_model_ct = joblib.load(r'models\CT_cox_model.pkl')
+xgb_model_ct = joblib.load(r'models\CT_xgb_model.pkl')
 
 st.markdown("---")
 st.header("📈 Survival Risk Prediction")
