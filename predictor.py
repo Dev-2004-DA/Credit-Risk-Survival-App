@@ -11,7 +11,7 @@ import gdown
 # Load preprocessing pipeline
 # ==========================================================
 
-preprocessing = joblib.load('models/Ct_for_preprocessing.csv')
+preprocessing = joblib.load('models/Ct_for_preprocessing.pkl')
 
 # ==========================================================
 # Classification models
