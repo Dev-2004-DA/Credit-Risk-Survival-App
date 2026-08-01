@@ -14,8 +14,8 @@ import gdown
 preprocessing = joblib.load('models\Ct_for_preprocessing.pkl')
 
 #Models
-lr = joblib.load(r'models\Final_lr_model.pkl')
-gb = joblib.load(r'models\Final_gb_model.pkl')
+lr = joblib.load(r'models/Final_lr_model.pkl')
+gb = joblib.load(r'models/Final_gb_model.pkl')
 
 st.title("🏦 Credit Risk Analytics Dashboard")
 st.markdown(
@@ -224,10 +224,10 @@ if not os.path.exists("models/cox_model.pkl"):
     )
 
 cox_model = joblib.load("models/cox_model.pkl")
-xgb_model = joblib.load(r'models\xgb_model.pkl')
+xgb_model = joblib.load(r'models/xgb_model.pkl')
 # CT
-cox_model_ct = joblib.load(r'models\CT_cox_model.pkl')
-xgb_model_ct = joblib.load(r'models\CT_xgb_model.pkl')
+cox_model_ct = joblib.load(r'models/CT_cox_model.pkl')
+xgb_model_ct = joblib.load(r'models/CT_xgb_model.pkl')
 
 st.markdown("---")
 st.header("📈 Survival Risk Prediction")
