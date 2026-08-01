@@ -4,37 +4,45 @@ import shap
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
-
+import os
+import gdown
 
 # ==========================================================
 # Load preprocessing pipeline
 # ==========================================================
 
-preprocessing = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\phase3_modelling\Ct_for_preprocessing')
+preprocessing = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\phase3_modelling\Ct_for_preprocessing.csv')
 
 # ==========================================================
 # Classification models
 # ==========================================================
 
-lr = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\phase3_modelling\Final_lr_model')
+lr = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\phase3_modelling\Final_lr_model.pkl')
 
-gb = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\phase3_modelling\Final_gb_model')
+gb = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\phase3_modelling\Final_gb_model.pkl')
 
 # ==========================================================
 # Survival models
 # ==========================================================
 
-cox_model = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\Survival Analysis\cox_model')
+os.makedirs("models", exist_ok=True)
+if not os.path.exists("models/cox_model.pkl"):
+    gdown.download(
+        id="1HLCFDl17JL69qyzMWPaUfVG4vwFaM-h8",
+        output="models/cox_model.pkl",
+        quiet=False
+    )
 
-xgb_model = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\Survival Analysis\xgb_model')
+cox_model = joblib.load("models/cox_model.pkl")
+
+xgb_model = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\Survival Analysis\xgb_model.pkl')
 
 # ==========================================================
 # Column transformers
 # ==========================================================
+cox_model_ct = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\Survival Analysis\CT_cox_model.pkl')
 
-cox_model_ct = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\Survival Analysis\CT_cox_model')
-
-xgb_model_ct = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\Survival Analysis\CT_xgb_model')
+xgb_model_ct = joblib.load(r'C:\Users\Dev\OneDrive\Desktop\data\Survival Analysis\CT_xgb_model.pkl')
 
 # ==========================================================
 # SHAP masker data
