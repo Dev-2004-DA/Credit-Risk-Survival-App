@@ -308,6 +308,8 @@ with col2:
 
     st.pyplot(fig)
 
+    plt.show()
+    
 st.subheader("📌 Key Hazard Ratio Interpretations")
 
 st.markdown("""
