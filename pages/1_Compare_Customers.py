@@ -220,16 +220,17 @@ def customer_input(prefix):
 # Customer Inputs
 # ======================================================
 
+
 st.header("Enter Borrower Details")
 
-tab1, tab2 = st.tabs(["👤 Customer A", "👤 Customer B"])
+colA, colB = st.columns(2)
 
-with tab1:
-    st.subheader("Customer A Information")
+with colA:
+    st.subheader("👤 Customer A")
     customerA = customer_input("A")
 
-with tab2:
-    st.subheader("Customer B Information")
+with colB:
+    st.subheader("👤 Customer B")
     customerB = customer_input("B")
 
 
