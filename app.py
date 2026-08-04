@@ -402,16 +402,17 @@ with col1:
 
 with col2:
 
+    plt.figure(figsize=(8,6))
+
     shap.plots.waterfall(
         shap_values[0],
         max_display=10,
         show=False
     )
+    st.pyplot(plt.gcf())
 
-    fig = plt.gcf()
-    st.pyplot(fig)
-    plt.close(fig)
-
+    plt.close("all")
+    
 # ------------------------------------------------------------
 # SHAP Explanation
 # ------------------------------------------------------------
