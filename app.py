@@ -307,8 +307,7 @@ with col2:
     ax.grid(alpha=0.3)
 
     st.pyplot(fig)
-
-    plt.show()
+    plt.close(fig)
     
 st.subheader("📌 Key Hazard Ratio Interpretations")
 
