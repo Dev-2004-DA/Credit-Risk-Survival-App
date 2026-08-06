@@ -375,8 +375,8 @@ col1, col2 = st.columns([1, 2])
 with col1:
 
     st.metric(
-        label="Predicted Risk Score",
-        value=f"{xgb_risk:.3f}"
+    label="Predicted Hazard Ratio",
+    value=f"{xgb_risk:.3f}"
     )
 
     st.markdown("### Model Performance")
@@ -390,11 +390,7 @@ with col1:
 
     st.markdown("### Interpretation")
 
-    st.markdown("""
-- Higher **Risk Score** indicates a greater likelihood of experiencing the event (default) earlier.
-- Lower **Risk Score** indicates a lower relative default risk.
-- The predicted value is a **relative risk score** and **not** a probability of default.
-""")
+    
 
 # ------------------------------------------------------------
 # SHAP Waterfall Plot
@@ -440,27 +436,27 @@ with m3:
     )
 
 st.info("""
-**Note:** The SHAP waterfall plot explains the model's **raw prediction** \(f(x)\), also known as the **log-risk score**.
+**Note:** The SHAP waterfall plot explains the model's **raw prediction** \(f(x)\), also known as the **log-hazard** (linear predictor).
 
-The final XGBoost Survival prediction is obtained by exponentiating the raw score:
+The final XGBoost Survival prediction is obtained by exponentiating the raw prediction:
 
-**Risk Score = exp(f(x))**
+**Hazard Ratio = exp(f(x))**
 
 Therefore,
 
-- **f(x)** displayed in the waterfall plot is the raw model output.
-- **exp(f(x))** converts the raw score into the final relative risk score.
-- The **Predicted Risk Score** equals **exp(f(x))**, confirming the correctness of the prediction.
+- **f(x)** displayed in the waterfall plot is the raw model output (log-hazard).
+- **exp(f(x))** converts the raw prediction into the final **Hazard Ratio**.
+- The **Predicted Hazard Ratio** shown above equals **exp(f(x))**, confirming the model prediction.
 """)
 
 st.info("""
-**Note:** Although both the **Cox Proportional Hazards** and **XGBoost Survival** models produce a **risk score**, the interpretation of these scores is different.
+**Note:** Both the **Cox Proportional Hazards** model and the **XGBoost Survival** model (using the Cox objective) produce predictions on the **Hazard Ratio** scale; however, the interpretation differs due to the underlying model structure.
 
-- **Cox Proportional Hazards:** The predicted risk score is a **Hazard Ratio**, representing how many times the borrower's instantaneous default risk changes relative to the baseline borrower. For example, a hazard ratio of **2** indicates twice the baseline hazard, while **0.5** indicates half the baseline hazard.
+- **Cox Proportional Hazards:** The Hazard Ratio is obtained from a linear proportional hazards model. Each model coefficient has a direct statistical interpretation, allowing the effect of each predictor on the hazard of default to be quantified.
 
-- **XGBoost Survival:** The predicted risk score is a **relative ranking score** learned by the model. It is useful for comparing borrowers (higher score implies higher relative risk), but it **does not represent a hazard ratio** and cannot be interpreted as a multiple of the baseline risk.
+- **XGBoost Survival:** The Hazard Ratio is learned through an ensemble of gradient-boosted decision trees. Although the prediction represents a relative hazard, the influence of individual features is captured through complex nonlinear relationships and interactions rather than regression coefficients. Consequently, feature contributions are interpreted using **SHAP** values.
 
-Therefore, while **higher values indicate greater default risk in both models**, the numerical values from the Cox model and XGBoost Survival model **should not be compared directly** because they represent different quantities.
+In both models, a **Hazard Ratio greater than 1** indicates higher default hazard relative to the baseline borrower, while a **Hazard Ratio less than 1** indicates lower default hazard. Neither prediction represents a probability of default.
 """)
 # python -m streamlit run app.py
 #  C:\Users\Dev\OneDrive\Desktop\data\Streamlite
